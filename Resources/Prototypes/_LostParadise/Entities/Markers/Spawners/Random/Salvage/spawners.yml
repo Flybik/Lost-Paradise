@@ -1,4 +1,4 @@
-- type: LPentityTable
+- type: entityTable
   id: SalvageScrapSpawnerCommon
   table: !type:GroupSelector
     children:
@@ -60,7 +60,7 @@
       tableId: SalvageScrapSpawnerCommon
       prob: 0.75
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageScrapSpawnerValuable
   table: !type:GroupSelector
     children:
@@ -121,7 +121,7 @@
       tableId: SalvageScrapSpawnerValuable
       prob: 0.75
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageTreasureSpawnerCommon
   table: !type:GroupSelector
     children:
@@ -186,7 +186,7 @@
       tableId: SalvageTreasureSpawnerCommon
       prob: 0.75
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageTreasureSpawnerValuable
   table: !type:GroupSelector
     children:
@@ -256,7 +256,7 @@
       tableId: SalvageTreasureSpawnerValuable
       prob: 0.75
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageEquipmentSpawnerCommon
   table: !type:GroupSelector
     children:
@@ -315,7 +315,7 @@
       tableId: SalvageEquipmentSpawnerCommon
       prob: 0.75
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageEquipmentSpawnerValuable
   table: !type:GroupSelector
     children:
@@ -403,7 +403,7 @@
       - id: NitrousOxideCanister
         weight: 0.25
 
-- type: LPentityTable
+- type: entityTable
   id: SalvageMagnetMobTable
   table: !type:GroupSelector
     children:
