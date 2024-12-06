@@ -57,10 +57,6 @@
     - Shovel
     chance: 0.95
     offset: 0.0
-    rarePrototypes:
-    - ClothingOuterEVASuitHydro
-    - Chainsaw
-    rareChance: 0.01
 
 # Furniture/Lockers
 - type: entity
@@ -83,7 +79,6 @@
     - CrateHydroponics
     - CrateHydroSecure
     - CratePlastic
-    - CratePlasticBiodegradable
     # Restocks
     - CrateVendingMachineRestockNutriMaxFilled
     - CrateVendingMachineRestockSeedsFilled
@@ -145,7 +140,6 @@
     - CrateHydroponics
     - CrateHydroSecure
     - CratePlastic
-    - CratePlasticBiodegradable
     chance: 1.0
     offset: 0.0
 
@@ -176,14 +170,10 @@
     - ClothingOuterWinterHydro
     - ClothingShoesBootsWinterHydro
     - ClothingBackpackDuffelHydroponics
-    - ClothingBackpackMessengerHydroponics
     - ClothingBeltPlant
     - ClothingHeadBandBotany
     chance: 1
     offset: 0.0
-    rarePrototypes:
-    - ClothingOuterEVASuitHydro
-    rareChance: 0.01
 
 # Other
 - type: entity

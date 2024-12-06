@@ -561,3 +561,19 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: [ ClothingHeadHelmetHardsuitMaxim, ClothingHeadHardsuitWithLightBase ]
+  id: ClothingHeadHelmetHardsuitMaximPrototype
+  categories: [ HideSpawnMenu ]
+  name: experimental salvager helmet
+  description: A predication of decay washes over your mind.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/maxim_prototype.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/maxim_prototype.rsi
+  - type: PointLight # Luxury Hardsuit Light
+    radius: 7
+    energy: 3

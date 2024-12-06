@@ -10379,13 +10379,6 @@ entities:
     - type: Transform
       pos: 14.614664,42.510277
       parent: 588
-- proto: SpawnDungeonClutterPatientTransport
-  entities:
-  - uid: 727
-    components:
-    - type: Transform
-      pos: 30.5,25.5
-      parent: 588
 - proto: SpawnDungeonLootArmorMercenary
   entities:
   - uid: 1580

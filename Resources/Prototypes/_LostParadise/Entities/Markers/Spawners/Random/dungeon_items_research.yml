@@ -58,7 +58,6 @@
     - ClothingNeckTieSci
     - ClothingNeckMantleRD
     - ClothingBackpackDuffelScience
-    - ClothingBackpackMessengerScience
     chance: 0.95
     offset: 0.0
     rarePrototypes:
@@ -125,14 +124,6 @@
     - CrateMedical
     - CrateSurgery
     - CrateChemistrySecure
-    # Restocks
-    - CrateVendingMachineRestockEngineeringFilled
-    - CrateVendingMachineRestockVendomatFilled
-    - CrateVendingMachineRestockRoboticsFilled
-    - CrateVendingMachineRestockAstroVendFilled
-    - CrateVendingMachineRestockTankDispenserFilled
-    - CrateVendingMachineRestockMedicalFilled
-    - CrateVendingMachineRestockChemVendFilled
     # Mats
     - CrateMaterialGlass
     - CrateMaterialSteel
@@ -157,12 +148,11 @@
     - CrateEngineeringCableBulk
     - CrateEngineeringToolbox
     - CrateEngineeringShuttle
-    - CrateEngineeringFoamGrenade
     - CrateEngineeringMiniJetpack
     - CrateAirlockKit
-    - CrateEngineeringSpaceHeater
+    - SpaceHeater
     - CrateEngineeringSolar
-    - CrateTools
+    - ToolboxMechanicalFilled
     - CrateEngineerHardsuit
     - CrateAtmosTechHardsuit
     - CrateEngineeringThruster
@@ -186,10 +176,7 @@
     # Mats
     - WeldingFuelTankHighCapacity
     # Filled crates
-    - CrateEngineeringKitShipyardRcd
     - CrateEngineeringKitRtg
-    - CrateEngineeringKitFabrication
-    - CrateEngineerChiefHardsuit
     - CrateServiceKitMedbay
     - CrateServiceKitChemLab
     - CrateServiceKitMedbayCryo

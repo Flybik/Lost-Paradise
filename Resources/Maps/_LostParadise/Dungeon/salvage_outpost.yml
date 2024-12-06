@@ -11352,23 +11352,6 @@ entities:
     - type: Transform
       pos: 9.658286,38.687035
       parent: 1653
-- proto: SpawnDungeonClutterPatientTransport
-  entities:
-  - uid: 1471
-    components:
-    - type: Transform
-      pos: 6.5,13.5
-      parent: 1653
-  - uid: 2117
-    components:
-    - type: Transform
-      pos: 13.5,40.5
-      parent: 1653
-  - uid: 2118
-    components:
-    - type: Transform
-      pos: 14.5,40.5
-      parent: 1653
 - proto: SpawnDungeonFurnitureBedroom
   entities:
   - uid: 2228

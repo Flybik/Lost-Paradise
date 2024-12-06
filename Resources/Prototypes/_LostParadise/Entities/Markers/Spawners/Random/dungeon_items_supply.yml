@@ -54,7 +54,7 @@
     - WeaponProtoKineticAccelerator
     - WeaponProtoKineticAcceleratorSawn
     - OreBag
-    - RadioHandheldNF
+    - RadioHandheld
     - HandheldGPSBasic
     - Floodlight
     - Pickaxe
@@ -97,7 +97,6 @@
     - ClothingHeadBandBrown
     - ClothingHeadsetMining
     - ClothingBackpackDuffelSalvage
-    - ClothingBackpackMessengerSalvage
     chance: 1
     offset: 0.0
     rarePrototypes:
@@ -223,35 +222,6 @@
     - SpawnDungeonMachineFrame
     rareChance: 0.05
 
-- type: entity
-  name: random vendomats
-  id: SpawnDungeonVendomatsSalvage
-  parent: MarkerBase
-  suffix: "Dungeon, Salvaging"
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: Structures/Machines/VendingMachines/youtool.rsi
-        state: off
-      - sprite: _LostParadise/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: RandomSpawner
-    prototypes:
-    - VendingMachineYouTool
-    - VendingMachineSalvage
-    - VendingMachineSalvage
-    - VendingMachineWinter
-    - VendingMachineCargoDrobe
-    chance: 1
-    offset: 0.0
-    rarePrototypes:
-    - VendingMachineSyndieContraband
-    - VendingMachineSyndieDrobe
-    - VendingMachineArcadia
-    rareChance: 0.01
-
 # Other
 - type: entity
   name: random machine board
@@ -273,7 +243,7 @@
     # Computers
     - ComputerIFFCircuitboard
     # Lathes
-    - SalvageTechFabCircuitboardNF
+    # - SalvageTechFabCircuitboardNF
     - AutolatheMachineCircuitboard
     - OreProcessorMachineCircuitboard
     # Machines
@@ -312,7 +282,7 @@
     prototypes:
     - TelecomServerFlatpack
     - OreProcessorFlatpack
-    - SalvageTechfabNFFlatpack
+    # - SalvageTechfabNFFlatpack
     - ProtolatheFlatpack
     - OreProcessorIndustrialFlatpack
     - MaterialReclaimerFlatpack

@@ -269,12 +269,6 @@
     prototypes:
     # Empty Crates
     - CrateEmptySpawner
-    # Restocks
-    - SpawnDungeonLootCrateRestockGeneral
-    - SpawnDungeonLootCrateRestockService
-    - SpawnDungeonLootCrateRestockEngi
-    - SpawnDungeonLootCrateRestockMed
-    - SpawnDungeonLootCrateRestockArmory
     # Mats
     - SpawnDungeonLootCrateMaterials
     # Departmental
@@ -338,62 +332,6 @@
     - WaterTankHighCapacity
     rareChance: 0.01
 
-- type: entity
-  name: random crate (restock)
-  id: SpawnDungeonLootCrateRestockGeneral
-  parent: MarkerBase
-  suffix: "Dungeon, General"
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: Structures/Storage/Crates/plastic.rsi
-        state: icon
-      - sprite: _LostParadise/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: RandomSpawner
-    prototypes:
-    # Empty Crates
-    - CrateEmptySpawner
-    # Restocks
-    - SpawnDungeonLootCrateRestockClothes
-    - SpawnDungeonLootCrateRestockArmory
-    - SpawnDungeonLootCrateRestockEngi
-    - SpawnDungeonLootCrateRestockMed
-    - SpawnDungeonLootCrateRestockHydro
-    - SpawnDungeonLootCrateRestockService
-    chance: 1.0
-    offset: 0.0
-
-- type: entity
-  name: random crate (restock)
-  id: SpawnDungeonLootCrateRestockClothes
-  parent: MarkerBase
-  suffix: "Dungeon, Clothes"
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: Structures/Storage/Crates/plastic.rsi
-        state: icon
-      - sprite: _LostParadise/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: RandomSpawner
-    prototypes:
-    - CrateVendingMachineRestockClothesFilled
-    - CrateVendingMachineRestockAutoDrobeFilled
-    - CrateVendingMachineRestockGamesFilled
-    - CrateVendingMachineRestockCuddlyCritterVendFilled
-    - CrateVendingMachineRestockAutoTuneVendFilled
-    - CrateVendingMachineRestockPottedPlantVendFilled
-    - CrateVendingMachineRestockPrideFilled
-    - CrateVendingMachineRestockSalvageEquipmentFilled
-    - CrateVendingMachineRestockSecTechFilled
-    chance: 1.0
-    offset: 0.0
-
 # Machines
 - type: entity
   name: random machine techfab
@@ -411,11 +349,10 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - CutterMachine
     - SalvageTechfabNF
-    - ScienceTechFab
-    - ServiceTechFab
-    - EngineeringTechFab
+    # - ScienceTechFab
+    # - ServiceTechFab
+    # - EngineeringTechFab
     - Autolathe
     - Protolathe
     - CircuitImprinter
@@ -485,12 +422,6 @@
     #- VendingMachineSnackTeal
     chance: 1
     offset: 0.0
-    rarePrototypes:
-    # - VendingMachineChemicalsSyndicate # A bit less Syndicate loot
-    - VendingMachineArcadia
-    # - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
-    rareChance: 0.05
 
 - type: entity
   name: random vendomat
@@ -532,10 +463,7 @@
     offset: 0.0
     rarePrototypes:
     - VendingMachineMagivend
-    - VendingMachineArcadia
     - VendingMachineBountyVendPunk
-    # - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
     - SpawnDungeonMachineFrame
     rareChance: 0.05
 
@@ -567,9 +495,7 @@
     - VendingMachineFlatpackVend
     - VendingMachineExpeditionaryFlatpackVend
     - VendingMachineAmmo
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
     - VendingMachineSec
-    - VendingMachineArcadia
     - SpawnDungeonMachineFrame
     rareChance: 0.03
 
@@ -663,17 +589,17 @@
     - SurveillanceCameraWirelessRouterCircuitboard
     - SurveillanceWirelessCameraMonitorCircuitboard
     # Boards
-    - SalvageTechFabCircuitboardNF
-    - ScienceTechFabCircuitboard
-    - ServiceTechFabCircuitboard
-    - EngineeringTechFabCircuitboard
+    # - SalvageTechFabCircuitboardNF
+    # - ScienceTechFabCircuitboard
+    # - ServiceTechFabCircuitboard
+    # - EngineeringTechFabCircuitboard
     - AmmoTechFabCircuitboard
     - MedicalTechFabCircuitboard
     - OreProcessorIndustrialMachineCircuitboard
     - DawInstrumentMachineCircuitboard
     - ComputerIFFCircuitboard
     - SpawnDungeonLootFlatpacks
-    - MercenaryTechFabCircuitboardNF
+    # - MercenaryTechFabCircuitboardNF
     chance: 1
     offset: 0.0
     rarePrototypes:
@@ -1013,7 +939,6 @@
     offset: 0.0
     rarePrototypes:
     - AmmoTechFabFlatpack
-#    - VendingMachineSyndieContrabandFlatpack # A bit less Syndicate loot
     rareChance: 0.05
 
 - type: entity

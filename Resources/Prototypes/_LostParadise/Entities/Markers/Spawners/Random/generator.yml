@@ -11,10 +11,8 @@
           state: portgen0
     - type: RandomSpawner
       prototypes:
-        - PortableGeneratorPacmanShuttle
         - PortableGeneratorPacman
       chance: 1
       rarePrototypes:
-        - PortableGeneratorSuperPacmanShuttle
         - PortableGeneratorSuperPacman
       rareChance: 0.3

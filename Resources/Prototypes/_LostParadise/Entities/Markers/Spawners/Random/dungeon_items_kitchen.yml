@@ -194,7 +194,6 @@
     - CrateHydroponics
     - CrateHydroSecure
     - CratePlastic
-    - CratePlasticBiodegradable
     # Restocks
     - CrateVendingMachineRestockBoozeFilled
     - CrateVendingMachineRestockChefvendFilled
@@ -280,7 +279,6 @@
     - CrateHydroponics
     - CrateHydroSecure
     - CratePlastic
-    - CratePlasticBiodegradable
     chance: 1.0
     offset: 0.0
 
@@ -373,13 +371,12 @@
   - type: RandomSpawner
     prototypes:
     - UniformPrinterFlatpack
-    - ServiceTechFabFlatpack
+    # - ServiceTechFabFlatpack
     - KitchenElectricGrillFlatpack
     - KitchenMicrowaveFlatpack
     - KitchenReagentGrinderFlatpack
     - MaterialReclaimerFlatpack
     - HydroponicsTrayEmptyFlatpack
-    - CutterMachineFlatpack
     - DawInstrumentFlatpack
     - MinimoogInstrumentFlatpack
     - ComputerIFFFlatpack

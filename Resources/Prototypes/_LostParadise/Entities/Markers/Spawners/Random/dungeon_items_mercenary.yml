@@ -278,7 +278,6 @@
     - ClothingHandsMercenaryGlovesCombat
     - ClothingShoesBootsMercenary
     - ClothingEyesGlassesMercenary
-    - ClothingBackpackMessengerMercenary
     - ClothingBackpackDuffelMercenary
     - ClothingBeltMercenaryWebbing
     - ClothingOuterVestWebMercenary
@@ -558,9 +557,6 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    - VendingMachineArcadia
-    #- VendingMachineSec
-    #- VendingMachineSecDrobe
     - SpawnDungeonMachineFrame
     rareChance: 0.01
 

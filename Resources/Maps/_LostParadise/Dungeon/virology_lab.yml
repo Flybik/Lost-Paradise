@@ -10409,18 +10409,6 @@ entities:
     - type: Transform
       pos: 28.683006,36.542156
       parent: 1653
-- proto: SpawnDungeonClutterPatientTransport
-  entities:
-  - uid: 1203
-    components:
-    - type: Transform
-      pos: 4.5,27.5
-      parent: 1653
-  - uid: 1979
-    components:
-    - type: Transform
-      pos: 33.46475,40.585865
-      parent: 1653
 - proto: SpawnDungeonClutterSyringe
   entities:
   - uid: 482

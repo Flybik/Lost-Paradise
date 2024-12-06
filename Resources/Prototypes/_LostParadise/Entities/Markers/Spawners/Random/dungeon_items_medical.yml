@@ -27,7 +27,6 @@
     - DiseaseSwab
     - SpawnDungeonClutterSyringe
     - SpawnDungeonClutterBeakerEmpty
-    - SpawnDungeonClutterPatientTransport
     - SpawnDungeonClutterImplanter
     - SpawnDungeonClutterHypospray
     - SpawnDungeonLootToolsSurgery
@@ -316,34 +315,6 @@
     offset: 0.0
 
 - type: entity
-  name: random patient transport
-  id: SpawnDungeonClutterPatientTransport
-  parent: MarkerBasePlaceFree
-  suffix: Dungeon
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-        scale: 0.7, 0.7
-      - sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
-        state: bag
-      - sprite: _LostParadise/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: RandomSpawner
-    prototypes:
-    - EmergencyRollerBedSpawnFolded
-    - VehicleWheelchairFolded
-    - BodyBagFolded
-    - RollerBedSpawnFolded
-    - CheapRollerBedSpawnFolded
-    chance: 1
-    offset: 0.0
-    rarePrototypes:
-    - Stunprod
-    rareChance: 0.01
-
-- type: entity
   name: random implanter
   id: SpawnDungeonClutterImplanter
   parent: MarkerBasePlaceFree
@@ -436,9 +407,8 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - HypoMini
-    - HypoBrigmedic
-    - HypoMiniLimitedEdition
+    - LPPHypospray
+    - LPPCombatHypospray
     chance: 0.65
     offset: 0.0
     rarePrototypes:
@@ -482,7 +452,6 @@
     - UniformScrubsColorGreen
     - ClothingBeltMedical
     - ClothingUniformJumpsuitMedicalDoctor
-    - ClothingBackpackMessengerMedical
     - ClothingBackpackDuffelMedical
     chance: 1
     offset: 0.0
@@ -517,7 +486,6 @@
     - LockerMedicalFilled
     - LockerMedicineFilled
     - LockerParamedicFilled
-    - LockerPsychologistFilled
     - ClosetL3VirologyFilled
     chance: 1
     offset: 0.0
@@ -561,7 +529,6 @@
     - WaterTankFull
     # Filled crates
     - CrateBodyBags
-    - CrateMedicalRollerBeds
     - CrateChemistrySupplies
     - CrateChemistryVials
     - CrateMedicalSupplies
@@ -651,8 +618,6 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-#    - VendingMachineSyndieContraband # A bit less Syndicate loot
-#    - VendingMachineSyndieDrobe # A bit less Syndicate loot
     - VendingMachineRobotics
     rareChance: 0.01
 
