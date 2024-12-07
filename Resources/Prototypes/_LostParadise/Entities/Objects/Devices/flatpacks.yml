@@ -151,24 +151,6 @@
   - type: Flatpack
     entity: RadiationCollectorFullTank
 
-- type: entity
-  parent: BaseNFFlatpack
-  id: SmallGyroscopeFlatpack
-  name: small gyroscope flatpack
-  description: A flatpack used for constructing a small gyroscope.
-  components:
-  - type: Flatpack
-    entity: SmallGyroscope
-
-- type: entity
-  parent: BaseNFFlatpack
-  id: SmallThrusterFlatpack
-  name: small thruster flatpack
-  description: A flatpack used for constructing a small thruster.
-  components:
-  - type: Flatpack
-    entity: SmallThruster
-
 # Science
 - type: entity
   parent: BaseNFFlatpack
@@ -238,14 +220,14 @@
     layers:
     - state: science_ape
 
-- type: entity
-  parent: ExosuitFabricatorFlatpack
-  id: ScienceTechFabFlatpack
-  name: science techfab flatpack
-  description: A flatpack used for constructing a science techfab.
-  components:
-  - type: Flatpack
-    entity: ScienceTechFab
+# - type: entity
+#   parent: ExosuitFabricatorFlatpack
+#   id: ScienceTechFabFlatpack
+#   name: science techfab flatpack
+#   description: A flatpack used for constructing a science techfab.
+#   components:
+#   - type: Flatpack
+#     entity: ScienceTechFab
 
 - type: entity
   parent: ExosuitFabricatorFlatpack
@@ -386,7 +368,7 @@
   description: A flatpack used for constructing a chemmaster.
   components:
   - type: Flatpack
-    entity: ChemMaster
+    entity: chem_master
 
 - type: entity
   parent: MedicalTechFabFlatpack
@@ -490,17 +472,6 @@
   - type: Sprite
     layers:
     - state: mercenary
-
-- type: entity
-  parent: AmmoTechFabFlatpack
-  id: MercenaryTechFabFlatpack
-  name: mercenary techfab flatpack
-  description: A flatpack used for constructing a mercenary techfab.
-  components:
-  - type: Flatpack
-    entity: MercenaryTechFab
-  - type: StaticPrice
-    price: 600
 
 # Consoles
 - type: entity
@@ -754,20 +725,6 @@
 
 - type: entity
   parent: UniformPrinterFlatpack
-  id: NfsdTechFabFlatpack
-  name: nfsd tech fab flatpack
-  description: A flatpack used for constructing a nfsd tech fab.
-  components:
-  - type: Flatpack
-    entity: NfsdTechFab
-  - type: StaticPrice
-    price: 250
-  - type: Item
-    shape:
-    - 0,0,1,1
-
-- type: entity
-  parent: UniformPrinterFlatpack
   id: JukeboxFlatpack
   name: jukebox flatpack
   description: A flatpack used for constructing a jukebox.
@@ -776,54 +733,6 @@
     entity: Jukebox
   - type: StaticPrice
     price: 250
-
-# Hoverbikes
-- type: entity
-  parent: BaseNFFlatpack
-  id: HoverbikeFlatpack
-  name: hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeNFKeys
-  - type: StaticPrice
-    price: 2000
-  - type: Sprite
-    layers:
-    - state: command_airlock
-
-- type: entity
-  parent: HoverbikeFlatpack
-  id: HoverbikeMailcarrierFlatpack
-  name: mail carrier hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeMailcarrierKey
-  - type: StaticPrice
-    price: 75
-
-- type: entity
-  parent: HoverbikeFlatpack
-  id: HoverbikeNfsdFlatpack
-  name: nfsd hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeNfsdKey
-  - type: StaticPrice
-    price: 750
-
-- type: entity
-  parent: HoverbikeFlatpack
-  id: HoverbikeSyndicateFlatpack
-  name: syndicate hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeSyndicateKey
-  - type: StaticPrice
-    price: 750
 
 # Vendomats
 - type: entity
@@ -892,24 +801,6 @@
     entity: LockerBotanistFilled
   - type: StaticPrice
     price: 500
-
-- type: entity
-  parent: VendingMachineBoozeFlatpack
-  id: VendingMachineClothingPunkFlatpack
-  name: threadschoom vendomat flatpack
-  description: A flatpack used for constructing a threadschoom vendomat.
-  components:
-  - type: Flatpack
-    entity: VendingMachineClothingPunk
-
-- type: entity
-  parent: VendingMachineBoozeFlatpack
-  id: VendingMachineBountyVendPunkFlatpack
-  name: bonanzamatic vendomat flatpack
-  description: A flatpack used for constructing a bonanzamatic vendomat.
-  components:
-  - type: Flatpack
-    entity: VendingMachineBountyVendPunk
 
 - type: entity
   parent: VendingMachineBoozeFlatpack

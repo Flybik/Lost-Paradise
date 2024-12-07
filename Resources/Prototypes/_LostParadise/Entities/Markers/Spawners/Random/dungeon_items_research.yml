@@ -237,10 +237,9 @@
     # Lathes
     - CircuitImprinterMachineCircuitboard
     - ExosuitFabricatorMachineCircuitboard
-    - ScienceTechFabCircuitboard
+    # - ScienceTechFabCircuitboard
     - ProtolatheMachineCircuitboard
     - AutolatheMachineCircuitboard
-    - FlatpackerMachineCircuitboard
     # Machines
     - ResearchAndDevelopmentServerMachineCircuitboard
     - APECircuitboard
@@ -279,7 +278,7 @@
     - MachineArtifactAnalyzerFlatpack
     - MachineAnomalyVesselFlatpack
     - MachineAPEFlatpack
-    - ScienceTechFabFlatpack
+    # - ScienceTechFabFlatpack
     - MachineArtifactCrusherFlatpack
     - ComputerResearchAndDevelopmentFlatpack
     - ResearchAndDevelopmentServerFlatpack

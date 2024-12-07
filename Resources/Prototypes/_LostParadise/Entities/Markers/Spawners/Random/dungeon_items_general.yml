@@ -458,12 +458,10 @@
     - VendingMachineRoboDrobe
     - VendingMachineGeneDrobe
     - VendingMachineViroDrobe
-    - VendingMachineClothingPunk
     chance: 1
     offset: 0.0
     rarePrototypes:
     - VendingMachineMagivend
-    - VendingMachineBountyVendPunk
     - SpawnDungeonMachineFrame
     rareChance: 0.05
 
@@ -599,7 +597,6 @@
     - DawInstrumentMachineCircuitboard
     - ComputerIFFCircuitboard
     - SpawnDungeonLootFlatpacks
-    # - MercenaryTechFabCircuitboardNF
     chance: 1
     offset: 0.0
     rarePrototypes:
@@ -923,18 +920,14 @@
     - SpawnDungeonLootFlatpacksSuppl
     - SpawnDungeonLootFlatpacksScience
     - SpawnDungeonLootFlatpacksService
-    - HoverbikeFlatpack
     - DawInstrumentFlatpack
     - MinimoogInstrumentFlatpack
     - ComputerIFFFlatpack
     - JukeboxFlatpack
     - VendingMachineBoozeFlatpack
     - VendingMachineCigsFlatpack
-    - VendingMachineClothingPunkFlatpack
-    - VendingMachineBountyVendPunkFlatpack
     - ComputerResearchAndDevelopmentFlatpack
     - ResearchAndDevelopmentServerFlatpack
-    - MercenaryTechFabFlatpack
     chance: 0.95
     offset: 0.0
     rarePrototypes:

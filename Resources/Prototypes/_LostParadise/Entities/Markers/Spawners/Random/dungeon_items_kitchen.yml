@@ -383,7 +383,5 @@
     - JukeboxFlatpack
     - VendingMachineBoozeFlatpack
     - VendingMachineCigsFlatpack
-    - VendingMachineClothingPunkFlatpack
-    - VendingMachineBountyVendPunkFlatpack
     chance: 0.95
     offset: 0.0

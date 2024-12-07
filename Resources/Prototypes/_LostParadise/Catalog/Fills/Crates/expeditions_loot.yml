@@ -154,7 +154,7 @@
       amount: 3
     - id: VendingMachineNutriFlatpack
     - id: VendingMachineSeedsUnlockedFlatpack
-    - id: ServiceTechFabFlatpack
+    # - id: ServiceTechFabFlatpack
 
 - type: entity
   parent: CrateEngineering
