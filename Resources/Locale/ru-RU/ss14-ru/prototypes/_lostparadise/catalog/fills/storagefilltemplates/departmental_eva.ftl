@@ -1,8 +1,8 @@
 ent-StorageFillEVASuitEngineer = { "" }
-    .desc = Contains a standard issue engineer EVA kit.
+    .desc = Содержит стандартный Инженерный комплект ЕВА.
 ent-StorageFillEVASuitAtmosTech = { "" }
-    .desc = Contains a standard issue atmospheric technician EVA kit.
+    .desc = Содержит стандартный комплект ЕВА для Атмосферных Техников .
 ent-StorageFillEVASuitCargo = { "" }
-    .desc = Contains a standard issue cargo technician EVA kit.
+    .desc = Содержит стандартный комплект ЕВА для Грузчиков.
 ent-StorageFillEVASuitSalvage = { "" }
-    .desc = Contains a standard issue salvage specialist EVA kit.
+    .desc = Содержит стандартный набор комплект ЕВА для Утилизаторов.

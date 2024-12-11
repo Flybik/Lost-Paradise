@@ -1,2 +1,2 @@
-ent-ClothingNeckAmuletBloodCult = ascended cultist amulet
-    .desc = Every time you gaze upon it, you feel as if it is gazing back at you. Summons a drained one that follows the user for a brief period of time. Has a cooldown.
+ent-ClothingNeckAmuletBloodCult = Амулет вознесенного Культиста
+    .desc = Каждый раз, когда вы смотрите на него, вам кажется, что он смотрит на вас в ответ. Призывает истощенного персонажа, который следует за пользователем в течение короткого периода времени. Имеет время восстановления.

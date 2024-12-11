@@ -1,3 +1,3 @@
-ent-RandomDungeonPortableGeneratorSpawner = random portable generator spawner
-    .suffix = Dungeon
+ent-RandomDungeonPortableGeneratorSpawner = Случайный портативный генератор
+    .suffix = Подземелье
     .desc = { ent-MarkerBase.desc }

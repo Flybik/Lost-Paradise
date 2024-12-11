@@ -1,9 +1,9 @@
-ent-SpawnMobDinosaurSmall = dinosaur spawner
-    .suffix = AI, Hostile, Small
+ent-SpawnMobDinosaurSmall = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Маленький
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobDinosaurMedium = dinosaur spawner
-    .suffix = AI, Hostile, Medium
+ent-SpawnMobDinosaurMedium = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Средний
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobDinosaurBig = dinosaur spawner
-    .suffix = AI, Hostile, Big
+ent-SpawnMobDinosaurBig = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Большой
     .desc = { ent-MarkerBase.desc }

@@ -1,4 +1,4 @@
-ent-CrateMaterialBiomass = biomass crate
-    .desc = 300 units of biomass. Yum.
-ent-CrateMaterials = materials crate
-    .desc = 1 stack of glass, plastic, steel, plasma and plasteel.
+ent-CrateMaterialBiomass = Ящик с биомассой
+    .desc = 300 единиц биомассы. Нямка!
+ent-CrateMaterials = Ящик материалов
+    .desc = Содержит по 1 стопке стекла, пластика, стали, плазмы and пластали.
