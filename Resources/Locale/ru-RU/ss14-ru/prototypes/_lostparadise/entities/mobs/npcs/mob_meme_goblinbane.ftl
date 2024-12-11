@@ -1,13 +1,13 @@
-ent-MobIncorporealBase = incorporeal entity
-    .desc = You can't touch it, but it can touch you.
-ent-BaseMobMemeGoblinbane = The Goblinbane
-    .desc = A Daemon of Cleanliness from the time before time (but after the first toilet was built). An ancient enemy of goblinkind.
-ent-MobMemeGoblinbane = The Goblinbane
-    .desc = A Daemon of Cleanliness from the time before time (but after the first toilet was built). An ancient enemy of goblinkind.
-ent-ActionSpawnCleanlinessDimensionPortal = [color=orange]Open Cleanliness Portal[/color]
-    .desc = A portal to the dimension of utter cleanliness. No goblins allowed. The ability has [color=yellow]60 second cooldown.[/color]
-ent-CleanlinessDimensionPortalGun = cleanliness portal Gun
-    .desc = Spawns the portal.
+ent-MobIncorporealBase = Бестелесное энтити
+    .desc = Вы не можете прикоснуться к нему, но оно может прикоснуться к вам.
+ent-BaseMobMemeGoblinbane = Погибель Гоблинов
+    .desc = Демон Чистоты с незапамятных времен (но после того, как был построен первый туалет). Древний враг гоблинов.
+ent-MobMemeGoblinbane = Погибель Гоблинов
+    .desc = Демон Чистоты с незапамятных времен (но после того, как был построен первый туалет). Древний враг гоблинов.
+ent-ActionSpawnCleanlinessDimensionPortal = [color=orange]Портал Чистоты[/color]
+    .desc = Портал в измерение абсолютной Чистоты. Гоблины запрещены. Время восстановления способности - [color=yellow]60 секунд.[/color]
+ent-CleanlinessDimensionPortalGun = Портальная пушка Чистоты
+    .desc = Спавнит порталы.
 ent-MobMemeGoblinbaneGhost = { ent-MobIncorporealBase }
-    .suffix = Ghost form
+    .suffix = Для гостов
     .desc = { ent-MobIncorporealBase.desc }

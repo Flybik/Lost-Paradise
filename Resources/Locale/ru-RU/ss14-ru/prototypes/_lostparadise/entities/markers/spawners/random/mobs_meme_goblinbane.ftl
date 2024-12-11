@@ -1,3 +1,3 @@
-ent-SpawnRandomPossessedJaniTool = random possessed janitor tool
-    .suffix = AI, Hostile
+ent-SpawnRandomPossessedJaniTool = Спавнер случайного одержимого инструмента Уборщика
+    .suffix = ИИ, Враждебный
     .desc = { ent-MarkerBasePlaceFree.desc }

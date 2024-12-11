@@ -1,10 +1,10 @@
-ent-MobMemePossessedMop = possessed mop
+ent-MobMemePossessedMop = Одержимая швабра
     .desc = { ent-BaseMobMemeGoblinbane.desc }
-ent-MobMemePossessedSpray = possessed spray
+ent-MobMemePossessedSpray = Одержимый распылитель
     .desc = { ent-BaseMobMemeGoblinbane.desc }
-ent-MobMemePossessedBucket = possessed mop bucket
+ent-MobMemePossessedBucket = Одержимое ведро для швабры
     .desc = { ent-BaseMobMemeGoblinbane.desc }
-ent-MopBucketDimnsionPortal = mop bucket portal
-    .desc = A portal to a mop bucket dimension. Obviously. It says so on the label at the corner.
-ent-CleanlinessDimensionPortal = cleanliness dimension portal
-    .desc = A portal to the dimension of utter cleanliness. No goblins allowed.
+ent-MopBucketDimnsionPortal = Портал в измерение ведра для швабры
+    .desc = Портал в измерение ведра для швабры. Очевидно. Так написано на этикетке в углу.
+ent-CleanlinessDimensionPortal = Портал Чистоты
+    .desc = Портал в измерение абсолютной Чистоты. Гоблины не допускаются.

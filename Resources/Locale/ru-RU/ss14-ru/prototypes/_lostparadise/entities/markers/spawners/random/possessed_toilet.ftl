@@ -1,3 +1,3 @@
-ent-ToiletMemeSpawner = toilet spawner
-    .suffix = Dungeon, Goblinbane
+ent-ToiletMemeSpawner = Спавнер туалета
+    .suffix = Подземелье, Погибель Гоблинов
     .desc = { ent-MarkerBase.desc }
