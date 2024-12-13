@@ -1,3 +1,3 @@
 ent-GrilleDungeon = { ent-Grille }
-    .desc = A covered in soot and grime grille.
-    .suffix = DO NOT MAP, Dungeon only
+    .desc = Решетка, покрытая копотью и сажей.
+    .suffix = НЕ МАППИТЬ, Только подземелья

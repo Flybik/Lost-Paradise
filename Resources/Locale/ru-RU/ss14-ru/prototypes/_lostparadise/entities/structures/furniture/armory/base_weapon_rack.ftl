@@ -1,10 +1,10 @@
-ent-StructureWeaponRackBase = weapon rack
-    .desc = A storage unit for expedited pacification measures.
-ent-StructurePistolRack = sidearm rack
-    .suffix = Empty
+ent-StructureWeaponRackBase = Стойка для крупного оружия
+    .desc = Хранилище для ускоренных мер по умиротворению.
+ent-StructurePistolRack = Стойка для пистолетов
+    .suffix = Пустой
     .desc = { ent-StructureWeaponRackSlots.desc }
 ent-StructurePistolRackWallmounted = { ent-StructurePistolRack }
-    .suffix = Empty, Wallmount
+    .suffix = Пустой, Настенный
     .desc = { ent-StructurePistolRack.desc }
 ent-StructureWeaponRackSlots = { ent-StructureWeaponRackBase }
     .desc = { ent-StructureWeaponRackBase.desc }

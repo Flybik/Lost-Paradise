@@ -1,6 +1,6 @@
 ent-WindoorMurkyDungeon = { "" }
-    .desc = A windoor with murky glass, it's hard to see what's on the other side.
-    .suffix = DO NOT MAP, Dungeon only
+    .desc = Раздвижная дверь с мутным стеклом. Трудно разглядеть, что находится по другую сторону.
+    .suffix = НЕ МАППИТЬ, Только подземелья
 ent-WindoorDungeon = { ent-WindoorMurkyDungeon }
     .desc = { ent-WindoorMurkyDungeon.desc }
 ent-WindoorSecureDungeon = { ent-WindoorMurkyDungeon }
@@ -16,7 +16,7 @@ ent-WindoorSecureSecurityLockedDungeon = { ent-WindoorMurkyDungeon }
 ent-WindoorSecureMercenaryLockedDungeon = { ent-WindoorMurkyDungeon }
     .desc = { ent-WindoorMurkyDungeon.desc }
 ent-WindoorSecureMercenaryLocked = { ent-WindoorSecure }
-    .suffix = Mercenary, Locked
+    .suffix = Наёмник, Закрыт
     .desc = { ent-WindoorSecure.desc }
 ent-WindoorPlasmaDungeon = { ent-WindoorMurkyDungeon }
     .desc = { ent-WindoorMurkyDungeon.desc }

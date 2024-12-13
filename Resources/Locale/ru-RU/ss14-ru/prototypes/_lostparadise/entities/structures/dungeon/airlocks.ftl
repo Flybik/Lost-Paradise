@@ -1,13 +1,13 @@
 ent-AirlockGlassMurkyDungeon = { "" }
-    .desc = An airlock with murky glass windows, it's hard to see what's on the other side.
-    .suffix = DO NOT MAP, Dungeon only
+    .desc = Шлюз с мутными стеклянными окнами.  Трудно разглядеть, что находится по ту сторону.
+    .suffix = НЕ МАППИТЬ, Только подземелья
 ent-AirlockGlassDungeon = { ent-AirlockGlassMurkyDungeon }
     .desc = { ent-AirlockGlassMurkyDungeon.desc }
 ent-AirlockMercenaryGlass = { ent-AirlockGlass }
-    .suffix = Mercenary
+    .suffix = Наёмник
     .desc = { ent-AirlockGlass.desc }
 ent-AirlockMercenaryGlassLocked = { ent-AirlockMercenaryGlass }
-    .suffix = Mercenary, Locked
+    .suffix = Наёмник, Закрыто
     .desc = { ent-AirlockMercenaryGlass.desc }
 ent-AirlockMaintGlassLockedDungeon = { ent-AirlockGlassMurkyDungeon }
     .desc = { ent-AirlockGlassMurkyDungeon.desc }

@@ -1,2 +1,2 @@
-ent-LPPSalvageExpeditionsComputerCircuitboard = salvage expeditions computer board
-    .desc = A computer printed circuit board for a salvage expeditions computer.
+ent-LPPSalvageExpeditionsComputerCircuitboard = Консоль утилизаторских экспедиций (консольная плата)
+    .desc = Консольная плата для консоли утилизаторских экспедиций.

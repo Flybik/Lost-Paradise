@@ -1,3 +1,3 @@
 ent-StructurePistolRackWallmountedMercenaryFilled = { ent-StructurePistolRackWallmountedMercenary }
-    .suffix = Dunegeon, Mercenary, Filled, Wallmount
+    .suffix = Подзмелье, Наймник, Заполненный, Настенный
     .desc = { ent-StructurePistolRackWallmountedMercenary.desc }

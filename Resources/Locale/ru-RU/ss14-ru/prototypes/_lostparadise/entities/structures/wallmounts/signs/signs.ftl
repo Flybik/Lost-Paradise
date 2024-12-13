@@ -1,2 +1,2 @@
-ent-SignMaterials = materials sign
-    .desc = An omen to the juicy vault of steel, glass, and plastic that lays before you.
+ent-SignMaterials = Знак материалов
+    .desc = Это предзнаменование для роскошного хранилища из стали, стекла и пластика, которое раскинулось перед вами.

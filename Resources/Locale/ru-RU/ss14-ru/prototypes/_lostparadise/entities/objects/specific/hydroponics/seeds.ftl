@@ -1,2 +1,2 @@
-ent-SpesosTreeSeeds = packet of speso seeds
-    .desc = These seeds seem like a miracle, but expert farmers get rich from the kitchen.
+ent-SpesosTreeSeeds = Пакет семян (денежное дерево)
+    .desc = Эти семена кажутся чудом, но опытные ботаники разбогатевают на этом.
