@@ -179,13 +179,3 @@
     muzzleFlash: null
     deleteOnSpawn: true
     proto: SoapletBloodCultSpread # SoapConjuredBloodCultCluster
-
-- type: entity
-  id: SoapletBloodCultSpread
-  parent: SoapletBloodCult
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ProjectileSpread
-    proto: SoapletBloodCult
-    count: 35
-    spread: 40
