@@ -93,7 +93,7 @@
   abstract: true
   id: NFMobRestrictions
   components:
-  - type: NFSalvageMobRestrictions
+  - type: LPSalvageMobRestrictions
     addComponentsOnDeath:
     - type: Uncloneable
     - type: Unrevivable
@@ -121,7 +121,7 @@
   abstract: true
   id: NFMobBossRestrictions
   components:
-  - type: NFSalvageMobRestrictions
+  - type: LPSalvageMobRestrictions
     addComponentsLeaveGrid:
     - type: TimedDespawn
       lifetime: 15
@@ -141,7 +141,7 @@
   abstract: true
   id: NFMobRestrictionsSilicon
   components:
-  - type: NFSalvageMobRestrictions
+  - type: LPSalvageMobRestrictions
     addComponentsOnDeath:
     - type: Strippable
     - type: UserInterface
