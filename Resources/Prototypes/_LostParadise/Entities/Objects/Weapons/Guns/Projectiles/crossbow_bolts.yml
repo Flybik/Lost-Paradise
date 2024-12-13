@@ -495,8 +495,6 @@
       types:
         Piercing: 15
     deleteOnCollide: true
-  - type: IgniteOnProjectileHit
-    fireStacks: 0.5
   - type: PointLight
     enabled: true
     color: "#ff4300"
