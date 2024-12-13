@@ -155,7 +155,7 @@
       collection: BulletMiss
 
 # Blood Cult Zealot, ranged mob, magic bolt deals 5 slash and 2 bloodloss
-# Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
+# Look for magic bolt here:\Resources\Prototypes\_LostParadise\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
 - type: entity
   name: blood cult zealot
   parent:
