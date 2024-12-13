@@ -56,7 +56,7 @@
   # - PirateNF
   # - ExplorersExpeditionNF
   # - ArtifactConstruct
-  # - StreetGangNF
+  - StreetGangNF
   # - DinosaursNF
   - MercenariesExpeditionNF
   # - SiliconsExpeditionNF
@@ -86,9 +86,39 @@
   # - PirateNF
   # - ExplorersExpeditionNF
   # - ArtifactConstruct
-  # - StreetGangNF
+  - StreetGangNF
   # - DinosaursNF
   # #- MercenariesExpeditionNF
+  # - SiliconsExpeditionNF
+  # - AberrantFleshExpeditionNF
+  # - ContrabandClothing
+  # - ContrabandDetection
+
+- type: npcFaction
+  id: StreetGangNF
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  #- Revolutionary # Like their style
+  - Xeno
+  # ## Frontier Factions
+  # - Monkey
+  # - Goblin
+  # - SyndicateNF
+  # - WizFedFaction
+  - BloodCultNF
+  # - PirateNF
+  # - ExplorersExpeditionNF
+  # - ArtifactConstruct
+  # #- StreetGangNF
+  # - DinosaursNF
+  - MercenariesExpeditionNF
   # - SiliconsExpeditionNF
   # - AberrantFleshExpeditionNF
   # - ContrabandClothing
