@@ -442,7 +442,6 @@
   - MobFlammable
   - MobEnhancedMovement
   - MobHumanoidHostileAIComplex
-  - BaseC3MobCreature
   id: MobNonHumanHostileBase
   components:
   - type: MovementSpeedModifier
