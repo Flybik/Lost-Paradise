@@ -44,7 +44,6 @@
   parent: BaseItem
   abstract: true
   components:
-  - type: LandAtCursor
   - type: Item
     size: Tiny
   - type: Sprite
