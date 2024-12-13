@@ -64,7 +64,7 @@
   # - ContrabandClothing
   # - ContrabandDetection
 
-  - type: npcFaction
+- type: npcFaction
   id: MercenariesExpeditionNF
   hostile:
   ## SS14 factions
