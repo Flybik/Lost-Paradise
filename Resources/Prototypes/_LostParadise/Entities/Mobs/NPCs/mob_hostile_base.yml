@@ -85,6 +85,12 @@
 
 - type: entity
   abstract: true
+  id: LPMobRestrictions
+  components:
+  - type: LPSalvageMobRestrictions
+
+- type: entity
+  abstract: true
   id: NFMobRestrictions
   components:
   - type: NFSalvageMobRestrictions
