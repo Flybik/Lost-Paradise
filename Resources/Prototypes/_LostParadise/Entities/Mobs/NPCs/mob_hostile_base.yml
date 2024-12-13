@@ -300,7 +300,6 @@
     - FootstepSound
     - DoorBumpOpener
     - CannotSuicide
-  - type: FTLKnockdownImmune
 
 # Inventories
 - type: entity # All slots are fillable, most of them are "hidden"
@@ -425,7 +424,6 @@
     minimumWait: 120 # 1 * 2
     maximumWait: 240 # 2 * 60
     nextAdvertisementTime: 0
-  - type: FTLKnockdownImmune
   - type: Respirator
     updateInterval: 99999 # Shouldn't run often, if ever.
     suffocationThreshold: -100 # Should never happen.
@@ -508,4 +506,3 @@
     - FootstepSound
     - DoorBumpOpener
     - CannotSuicide
-  - type: FTLKnockdownImmune
