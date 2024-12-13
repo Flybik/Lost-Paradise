@@ -379,7 +379,6 @@
   - MobEnhancedMovement
   - BaseMobSpecies
   - MobHumanoidHostileAIComplex
-  - BaseC3MobHuman
   id: MobHumanoidHostileBase
   components:
   - type: MovementSpeedModifier
