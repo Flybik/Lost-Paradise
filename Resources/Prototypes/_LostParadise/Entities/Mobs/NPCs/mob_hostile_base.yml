@@ -85,9 +85,88 @@
 
 - type: entity
   abstract: true
-  id: LPMobRestrictions
+  id: NFMobRestrictions
   components:
-  - type: LPSalvageMobRestrictions
+  - type: NFSalvageMobRestrictions
+    addComponentsOnDeath:
+    - type: Uncloneable
+    - type: Unrevivable
+    - type: Strippable
+    - type: UserInterface
+      interfaces:
+        enum.StrippingUiKey.Key:
+         type: StrippableBoundUserInterface
+    removeComponentsOnDeath:
+    - type: Insulated
+    - type: Reflect
+    - type: MovementIgnoreGravity
+    - type: Tool
+    - type: Prying
+    - type: CanMoveInAir
+    - type: Tag
+    - type: Access
+    - type: Timer
+    - type: TimedSpawner
+    - type: Advertise
+      pack: FuelVendAds # placeholder, required field, unused
+    - type: Jittering
+
+- type: entity
+  abstract: true
+  id: NFMobBossRestrictions
+  components:
+  - type: NFSalvageMobRestrictions
+    addComponentsLeaveGrid:
+    - type: TimedDespawn
+      lifetime: 15
+    - type: PassiveDamage
+      allowedStates:
+      - Alive
+      damage:
+        types:
+          Cellular: 1
+    - type: Pacified
+    removeComponentsReturnGrid:
+    - type: TimedDespawn
+    - type: PassiveDamage
+    - type: Pacified
+
+- type: entity
+  abstract: true
+  id: NFMobRestrictionsSilicon
+  components:
+  - type: NFSalvageMobRestrictions
+    addComponentsOnDeath:
+    - type: Strippable
+    - type: UserInterface
+      interfaces:
+        enum.StrippingUiKey.Key:
+         type: StrippableBoundUserInterface
+    removeComponentsOnDeath:
+#    - type: Pullable # TODO: This makes the mob stuck to your hand if it dies when you pull it
+    - type: Carriable # Carrying system from nyanotrasen.
+    - type: Tool
+    - type: Prying
+    - type: MovementIgnoreGravity
+    addComponentsOnRevival:
+#    - type: Pullable # TODO: This makes the mob stuck to your hand if it dies when you pull it
+    - type: Carriable # Carrying system from nyanotrasen.
+    - type: Tool
+      speedModifier: 1.5
+      qualities:
+        - Prying
+    - type: Prying
+      pryPowered: !type:Bool
+        true
+      force: !type:Bool
+        true
+      useSound:
+        path: /Audio/Items/crowbar.ogg
+      speedModifier: 10.0
+    - type: MovementIgnoreGravity
+    removeComponentsOnRevival:
+    - type: Strippable
+    - type: UserInterface
 
 - type: entity
   abstract: true
@@ -153,6 +232,7 @@
   - type: MovementAlwaysTouching
   - type: MovementIgnoreGravity
   - type: NoSlip
+  - type: ProtectedFromStepTriggers
   - type: Climbing
   - type: Tool
     speedModifier: 1.5
@@ -170,6 +250,28 @@
     #groups:
     #- AllAccess
 
+- type: entity
+  abstract: true
+  id: MobIncorporealBase
+  name: incorporeal entity
+  description: You can't touch it, but it can touch you.
+  components:
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/_NF/Effects/silence.ogg
+  - type: CanMoveInAir
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        density: 10
+        mask:
+        - FlyingMobMask
+        layer:
+        - Opaque
+
 # Dungeon boss
 - type: entity
   id: MobHostileBossBase
@@ -177,7 +279,7 @@
   parent:
   - MobEnhancedMovement
   - MobPassiveRegenWeak
-  - LPMobRestrictions
+  - NFMobRestrictions
   components:
   - type: Hands
   - type: Puller
@@ -192,9 +294,10 @@
     - FootstepSound
     - DoorBumpOpener
     - CannotSuicide
+  - type: FTLKnockdownImmune
 
 # Inventories
-- type: entity
+- type: entity # All slots are fillable, most of them are "hidden"
   save: false
   id: MobHumanoidInvetory
   abstract: true
@@ -202,13 +305,8 @@
   - type: Inventory
     templateId: hostilehumanoid # Supports loadouts
   - type: InventorySlots
-  - type: Strippable
-  - type: UserInterface
-    interfaces:
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
 
-- type: entity
+- type: entity # Slots for loot containers: pockets, belt, back
   save: false
   id: MobHumanoidInvetorySimplified
   abstract: true
@@ -216,11 +314,6 @@
   - type: Inventory
     templateId: hostilehumanoidsimplified # Does not support loadouts
   - type: InventorySlots
-  - type: Strippable
-  - type: UserInterface
-    interfaces:
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
 
 # AI packages
 - type: entity
@@ -286,10 +379,11 @@
   - MobEnhancedMovement
   - BaseMobSpecies
   - MobHumanoidHostileAIComplex
+  - BaseC3MobHuman
   id: MobHumanoidHostileBase
   components:
   - type: MovementSpeedModifier
-    baseWalkSpeed : 3.5
+    baseWalkSpeed : 4.5
     baseSprintSpeed : 4.5
   - type: NPCRetaliation
     attackMemoryLength: 10
@@ -326,6 +420,7 @@
     minimumWait: 120 # 1 * 2
     maximumWait: 240 # 2 * 60
     nextAdvertisementTime: 0
+  - type: FTLKnockdownImmune
   - type: Respirator
     updateInterval: 99999 # Shouldn't run often, if ever.
     suffocationThreshold: -100 # Should never happen.
@@ -348,10 +443,11 @@
   - MobFlammable
   - MobEnhancedMovement
   - MobHumanoidHostileAIComplex
+  - BaseC3MobCreature
   id: MobNonHumanHostileBase
   components:
   - type: MovementSpeedModifier
-    baseWalkSpeed : 3.5
+    baseWalkSpeed : 4.5
     baseSprintSpeed : 4.5
   - type: NPCRetaliation
     attackMemoryLength: 10
@@ -408,3 +504,4 @@
     - FootstepSound
     - DoorBumpOpener
     - CannotSuicide
+  - type: FTLKnockdownImmune
