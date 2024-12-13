@@ -115,13 +115,6 @@
     tags:
     - CrossbowBolt
 
-- type: entity
-  parent: BaseCrossbowBolt
-  id: BaseCrossbowBoltTrigger
-  abstract: true
-  components:
-  - type: TriggerOnProjectileHit
-
 # Lathe-printable variations
 - type: entity
   parent: BaseCrossbowBolt
@@ -378,7 +371,7 @@
   id: CrossbowBoltExplosive
 
 - type: entity
-  parent: BaseCrossbowBoltTrigger
+  parent: BaseCrossbowBolt
   id: CrossbowBoltExplosive
   name: explosive bolt
   description: A bolt with small explosive charge.
@@ -423,7 +416,7 @@
   id: CrossbowBoltEMP
 
 - type: entity
-  parent: BaseCrossbowBoltTrigger
+  parent: BaseCrossbowBolt
   id: CrossbowBoltEMP
   name: EMP bolt
   description: A bolt with small power cell attached to it.
@@ -517,7 +510,7 @@
   id: CrossbowBoltShrapnel
 
 - type: entity
-  parent: BaseCrossbowBoltTrigger
+  parent: BaseCrossbowBolt
   id: CrossbowBoltShrapnel
   name: shrapnel bolt
   description: A bolt with a buckshot shotgun shell attached to it.
