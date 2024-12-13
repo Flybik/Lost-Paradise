@@ -73,7 +73,7 @@
     layers:
       - state: red
       - state: ai
-      - sprite: _NF/Mobs/BloodCult/drainedone.rsi
+      - sprite: _LostParadise/Mobs/BloodCult/drainedone.rsi
         state: drained
   - type: RandomSpawner
     prototypes:
