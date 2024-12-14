@@ -96,7 +96,6 @@
   - type: LPSalvageMobRestrictions
     addComponentsOnDeath:
     - type: Uncloneable
-    - type: Unrevivable
     - type: Strippable
     - type: UserInterface
       interfaces:
