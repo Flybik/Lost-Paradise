@@ -158,7 +158,7 @@
 #    - type: Pullable # TODO: This makes the mob stuck to your hand if it dies when you pull it
     - type: Carriable # Carrying system from nyanotrasen.
     - type: Tool
-      speedModifier: 1.5
+      speed: 1.5
       qualities:
         - Prying
     - type: Prying
@@ -168,7 +168,7 @@
         true
       useSound:
         path: /Audio/Items/crowbar.ogg
-      speedModifier: 10.0
+      speed: 10.0
     - type: MovementIgnoreGravity
     removeComponentsOnRevival:
     - type: Strippable
@@ -240,7 +240,7 @@
   - type: NoSlip
   - type: Climbing
   - type: Tool
-    speedModifier: 1.5
+    speed: 1.5
     qualities:
       - Prying
   - type: Prying
@@ -250,7 +250,7 @@
       true
     useSound:
       path: /Audio/Items/crowbar.ogg
-    speedModifier: 10.0
+    speed: 10.0
   #- type: Access # Turning AA off for the time being
     #groups:
     #- AllAccess
@@ -263,7 +263,7 @@
   components:
   - type: FootstepModifier
     footstepSoundCollection:
-      path: /Audio/_NF/Effects/silence.ogg
+      path: /Audio/_LostParadise/Effects/silence.ogg
   - type: CanMoveInAir
   - type: Fixtures
     fixtures:

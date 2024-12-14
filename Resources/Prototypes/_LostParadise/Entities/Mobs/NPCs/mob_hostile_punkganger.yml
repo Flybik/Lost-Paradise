@@ -34,7 +34,7 @@
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 1.5
     rechargeSound:
-      path: /Audio/_NF/Effects/silence.ogg
+      path: /Audio/_LostParadise/Effects/silence.ogg
   - type: MeleeWeapon
     attackRate: 1.0
     altDisarm: false
