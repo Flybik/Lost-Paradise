@@ -263,7 +263,7 @@
   components:
   - type: FootstepModifier
     footstepSoundCollection:
-      path: /Audio/_NF/Effects/silence.ogg
+      path: /Audio/_LostParadise/Effects/silence.ogg
   - type: CanMoveInAir
   - type: Fixtures
     fixtures:
