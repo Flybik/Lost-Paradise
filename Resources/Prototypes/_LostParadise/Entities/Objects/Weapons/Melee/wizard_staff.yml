@@ -57,9 +57,7 @@
 - type: entity
   id: WizardStaffMeleeBlood
   name: inert cultist staff
-  parent:
-  - BaseC3CultContraband
-  - WizardStaffMeleeRed
+  parent: WizardStaffMeleeRed
   components:
   - type: Sharp
   - type: MeleeWeapon
@@ -75,9 +73,7 @@
 - type: entity
   id: WizardStaffDarkBolt
   name: cultist staff
-  parent:
-  - BaseC3CultContraband
-  - WizardStaffMeleeBlood
+  parent: WizardStaffMeleeBlood
   suffix: "Dark bolt"
   components:
   - type: BasicEntityAmmoProvider

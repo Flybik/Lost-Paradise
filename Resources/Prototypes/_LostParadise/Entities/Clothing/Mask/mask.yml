@@ -530,7 +530,7 @@
     sprite: _LostParadise/Clothing/Mask/nfsd_sheriff.rsi
 
 - type: entity
-  parent: [ BaseC3CultContrabandUnredeemable, ClothingMaskGasExplorer ]
+  parent: ClothingMaskGasExplorer
   id: ClothingMaskCultJanitor
   name: cult janitor mask
   description: A close-fitting, imposing breath mask designed for accursed custodians who value style.
