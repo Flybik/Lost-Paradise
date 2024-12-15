@@ -507,7 +507,7 @@
     coverage: MOUTH
 
 - type: entity
-  parent: [ BaseC2ContrabandUnredeemable, ClothingMaskGasSecurity ]
+  parent: ClothingMaskGasSecurity
   id: ClothingMaskGasNfsd
   name: nfsd gas mask
   description: A standard issue NFSD gas mask.
@@ -519,7 +519,7 @@
   - type: CatWearable
 
 - type: entity
-  parent: [ BaseC2ContrabandUnredeemable, ClothingMaskGasSwat ]
+  parent: ClothingMaskGasSwat
   id: ClothingMaskGasSheriff
   name: nfsd sheriff gas mask
   description: A gas mask worthy of a sheriff.
