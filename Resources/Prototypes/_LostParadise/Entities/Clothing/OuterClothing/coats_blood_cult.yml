@@ -15,6 +15,20 @@
     clothingPrototype: ClothingHeadHatHoodBloodCulthood
 
 - type: entity
+  id: ClothingOuterCoatCultJanitor
+  name: cult janitor robes
+  parent:
+  - ClothingOuterStorageBase
+  - ClothingOuterArmorBulletproof
+  - ContrabandClothing
+  description: An unholy custodian's garb. Surprisingly comfortable.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBloodCulthood
   name: cult hood
