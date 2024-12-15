@@ -83,13 +83,6 @@
   id: OreGoldCrab
   oreEntity: MobSpawnGoldCrab
 
-# Frontier - Ore
-- type: ore
-  id: OreBluespace
-  oreEntity: BluespaceOre1
-  minOreYield: 1
-  maxOreYield: 1
-
 # Frontier - Mobs
 - type: ore
   id: OreQuartzCrabNF
