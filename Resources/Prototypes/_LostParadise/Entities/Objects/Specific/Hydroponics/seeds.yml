@@ -7,7 +7,7 @@
     - type: Seed
       seedId: spesos
     - type: Sprite
-      sprite: _LostParadise/Objects/Specific/Hydronics/spesostree.rsi
+      sprite: _LostParadise/Objects/Specific/Hydroponics/spesostree.rsi
 
 - type: seed
   id: spesos
