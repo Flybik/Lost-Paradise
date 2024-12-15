@@ -5,7 +5,7 @@
   description: An ore crab made from bananium.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: bananium_crab
   - type: RadiationSource
     intensity: 1
@@ -33,7 +33,7 @@
   description: An ore crab made from coal.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: coal_crab
   - type: Destructible
     thresholds:
@@ -58,7 +58,7 @@
   description: An ore crab made from gold.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: gold_crab
   - type: Destructible
     thresholds:
@@ -83,7 +83,7 @@
   description: An ore crab made from plasma.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadiseMobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: plasma_crab
   - type: MeleeWeapon
     damage:
@@ -116,7 +116,7 @@
   description: An ore crab made from salt. # delicious, don't try to lick this
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: salt_crab
   - type: Destructible
     thresholds:
@@ -152,7 +152,7 @@
   description: An ore crab made from bananium.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: bananium_crab
   - type: RadiationSource
     intensity: 1
@@ -180,7 +180,7 @@
   description: An ore crab made from gold.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: gold_crab
   - type: Destructible
     thresholds:
@@ -205,7 +205,7 @@
   description: An ore crab made from plasma.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: plasma_crab
   - type: MeleeWeapon
     damage:
@@ -238,7 +238,7 @@
   description: An ore crab made from salt. # delicious, don't try to lick this
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: salt_crab
   - type: Destructible
     thresholds:
@@ -368,7 +368,7 @@
   parent: [ MobElementalBase, MobCombat, NFMobRestrictions ]
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/golems.rsi
+    sprite: /Textures/Mobs/Elemental/golems.rsi
     state: uranium_golem
   - type: HTN
     rootTask:
@@ -428,7 +428,7 @@
   description: An ore crab made from coal.
   components:
   - type: Sprite
-    sprite: /Textures/_LostParadise/Mobs/Elemental/orecrab.rsi
+    sprite: /Textures/Mobs/Elemental/orecrab.rsi
     state: coal_crab
   - type: Destructible
     thresholds:
