@@ -81,7 +81,7 @@
 
 - type: ore
   id: OreGoldCrab
-  oreEntity: MobSpawnGoldCrab
+  oreEntity: MobSpawnGoldCrabs
 
 # Frontier - Mobs
 - type: ore
