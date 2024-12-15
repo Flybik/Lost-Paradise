@@ -516,7 +516,6 @@
     sprite: _LostParadise/Clothing/Mask/nfsd.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Mask/nfsd.rsi
-  - type: CatWearable
 
 - type: entity
   parent: ClothingMaskGasSwat
