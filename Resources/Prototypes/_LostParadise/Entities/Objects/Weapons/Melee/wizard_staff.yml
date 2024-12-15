@@ -2,7 +2,6 @@
   name: wizard staff
   parent:
   - Shovel
-  - BaseC3WizardContraband
   id: WizardStaffMeleeBase
   description: Symbol of wizard's mastery of arcane arts.
   components:
