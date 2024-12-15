@@ -61,7 +61,6 @@
   - MercenariesExpeditionNF
   # - SiliconsExpeditionNF
   # - AberrantFleshExpeditionNF
-  # - ContrabandClothing
   # - ContrabandDetection
 
 - type: npcFaction
@@ -91,7 +90,6 @@
   # #- MercenariesExpeditionNF
   # - SiliconsExpeditionNF
   # - AberrantFleshExpeditionNF
-  # - ContrabandClothing
   # - ContrabandDetection
 
 - type: npcFaction
@@ -121,5 +119,4 @@
   - MercenariesExpeditionNF
   # - SiliconsExpeditionNF
   # - AberrantFleshExpeditionNF
-  # - ContrabandClothing
   # - ContrabandDetection

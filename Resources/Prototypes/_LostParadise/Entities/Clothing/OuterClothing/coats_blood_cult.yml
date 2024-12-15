@@ -20,7 +20,6 @@
   parent:
   - ClothingOuterStorageBase
   - ClothingOuterArmorBulletproof
-  - ContrabandClothing
   description: An unholy custodian's garb. Surprisingly comfortable.
   components:
   - type: Sprite

@@ -1,7 +1,6 @@
 - type: entity
   parent:
   - ClothingHeadHelmetBasic
-  - ContrabandClothing
   id: ClothingHeadHelmetCultJanitor
   name: cult janitor helmet
   components:
@@ -14,7 +13,7 @@
     - Hair
 
 - type: entity # for looks only
-  parent: [ ClothingHeadHatHoodBloodCulthood, ClothingHeadHelmetBasic, ContrabandClothing ]
+  parent: [ ClothingHeadHatHoodBloodCulthood, ClothingHeadHelmetBasic ]
   id: ClothingHeadHatHoodBloodCulthoodUnremoveable
   categories: [ HideSpawnMenu ]
   name: cult hood
