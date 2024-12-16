@@ -71,3 +71,17 @@
       - WeaponCaseInsertable
       tags:
       - Cartridge
+
+- type: entity
+  name: explosives case
+  parent: WeaponCaseShort
+  id: WeaponCaseShortExplosives
+  description: A reinforced casing for storing explosives.
+  suffix: Short
+  components:
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Sprite
+    sprite: _NF/Objects/Storage/Cases/explosivescaseshort.rsi
+  - type: Item
+    sprite: _NF/Objects/Storage/Cases/explosivescaseshort.rsi
