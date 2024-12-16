@@ -380,94 +380,94 @@
   proto: LPPExperiment
   biomes:
     #- LowDesert
-    - Grasslands
+    - LPPGrasslands
 
 - type: LPsalvageDungeonMod
   id: LPPLavaBrig
   desc: salvage-dungeon-mod-lava-brig
   proto: LPPLavaBrig
   biomes:
-    - Lava
+    - LPPLava
 
 - type: LPsalvageDungeonMod
   id: LPPMineshaft
   desc: salvage-dungeon-mod-mineshaft
   proto: LPPMineshaft
   biomes:
-    - Caves
+    - LPPCaves
 
 - type: LPsalvageDungeonMod
   id: LPPSnowyLabs
   desc: salvage-dungeon-mod-snowy-labs
   proto: LPPSnowyLabs
   biomes:
-    - Snow
+    - LPPSnow
 
 - type: LPsalvageDungeonMod
   id: LPPHaunted
   desc: salvage-dungeon-mod-haunted
   proto: LPPHaunted
   biomes:
-    - Caves
+    - LPPCaves
 
 - type: LPsalvageDungeonMod
   id: LPPCaveFactory
   proto: LPPCaveFactory
   desc: salvage-dungeon-mod-cave-factory
   biomes:
-    - Caves
-    - Grasslands
-    - Shadow
+    - LPPCaves
+    - LPPGrasslands
+    - LPPShadow
 
 - type: LPsalvageDungeonMod
   id: LPPMedSci
   proto: LPPMedSci
   desc: salvage-dungeon-mod-med-sci
   biomes:
-    - Caves
-    - Grasslands
-    - Snow
-    - Shadow
+    - LPPCaves
+    - LPPGrasslands
+    - LPPSnow
+    - LPPShadow
 
 - type: LPsalvageDungeonMod
   id: LPPFactoryDorms
   proto: LPPFactoryDorms
   desc: salvage-dungeon-mod-factory-dorms
   biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Shadow
+    - LPPCaves
+    - LPPGrasslands
+    - LPPLava
+    - LPPShadow
 
 - type: LPsalvageDungeonMod
   id: LPPLavaMercenary
   proto: LPPLavaMercenary
   desc: salvage-dungeon-mod-lava-mercenary
   biomes:
-    - Lava
-    - Shadow
+    - LPPLava
+    - LPPShadow
 
 - type: LPsalvageDungeonMod
   id: LPPVirologyLab
   proto: LPPVirologyLab
   desc: salvage-dungeon-mod-virology-lab
   biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Snow
-    - Shadow
+    - LPPCaves
+    - LPPGrasslands
+    - LPPLava
+    - LPPSnow
+    - LPPShadow
 
 - type: LPsalvageDungeonMod
   id: LPPSalvageOutpost
   proto: LPPSalvageOutpost
   desc: salvage-dungeon-mod-salvage-outpost
   biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Snow
-    - Shadow
+    - LPPCaves
+    - LPPGrasslands
+    - LPPLava
+    - LPPSnow
+    - LPPShadow
 
 # Time mods -> at least 1 required
 # Standard time, no description, no need to show.
@@ -500,65 +500,6 @@
   id: Shadow
   desc: salvage-biome-mod-shadow
   biome: Shadow
-
-- type: salvageDungeonMod
-  id: CaveFactory
-  proto: CaveFactory
-  desc: salvage-dungeon-mod-cave-factory
-  biomes:
-    - Caves
-    - Grasslands
-    - Shadow
-
-- type: salvageDungeonMod
-  id: MedSci
-  proto: MedSci
-  desc: salvage-dungeon-mod-med-sci
-  biomes:
-    - Caves
-    - Grasslands
-    - Snow
-    - Shadow
-
-- type: salvageDungeonMod
-  id: FactoryDorms
-  proto: FactoryDorms
-  desc: salvage-dungeon-mod-factory-dorms
-  biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Shadow
-
-- type: salvageDungeonMod
-  id: LavaMercenary
-  proto: LavaMercenary
-  desc: salvage-dungeon-mod-lava-mercenary
-  biomes:
-    - Lava
-    - Shadow
-
-- type: salvageDungeonMod
-  id: VirologyLab
-  proto: VirologyLab
-  desc: salvage-dungeon-mod-virology-lab
-  biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Snow
-    - Shadow
-
-- type: salvageDungeonMod
-  id: SalvageOutpost
-  proto: SalvageOutpost
-  desc: salvage-dungeon-mod-salvage-outpost
-  biomes:
-    - Caves
-    - Grasslands
-    - Lava
-    - Snow
-    - Shadow
 
 # Weather mods
 - type: salvageWeatherMod
