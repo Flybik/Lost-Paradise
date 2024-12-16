@@ -1,0 +1,22 @@
+- type: entity
+  id: SpeedLoaderRifleHeavy
+  name: "speed loader (.20 rifle)"
+  parent: BaseSpeedLoaderHeavyRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle
+  - type: Icon
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/SpeedLoaders/HeavyRifle/argenti_speed_loader.rsi
+    state: icon
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/SpeedLoaders/HeavyRifle/argenti_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-8
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 9
+    zeroVisible: false
+  - type: Appearance

@@ -167,7 +167,7 @@
         true
       useSound:
         path: /Audio/Items/crowbar.ogg
-      speed: 10.0
+      speedModifier: 10.0
     - type: MovementIgnoreGravity
     removeComponentsOnRevival:
     - type: Strippable
@@ -249,7 +249,7 @@
       true
     useSound:
       path: /Audio/Items/crowbar.ogg
-    speed: 10.0
+    speedModifier: 10.0
   #- type: Access # Turning AA off for the time being
     #groups:
     #- AllAccess

@@ -86,7 +86,7 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseShortMk58Expedition
+    - WeaponCaseShortMk58
     - WeaponCaseShortArgentiExpedition
     - WeaponCaseShortLaserGunExpedition
     #- WeaponCaseShortHandmadeExpedition
@@ -180,7 +180,7 @@
     - WeaponCaseShortPython
     - WeaponCaseLongGestioExpedition
     - WeaponCaseLongWeaponRifleNovaliteC1Expedition
-    - WeaponCaseLongKammererExpedition
+    - WeaponCaseLongKammerer
     - WeaponCaseLongEnergyGunExpedition
     - WeaponCaseLongRepeaterExpedition
     - WeaponCaseLongSVTExpedition
@@ -266,9 +266,9 @@
     - WeaponCaseShortMateba
     - WeaponCaseShortCobra
     - WeaponCaseLongWT550Expedition
-    - WeaponCaseLongDrozdExpedition
+    - WeaponCaseLongDrozd
     - WeaponCaseLongLecterExpedition
-    - WeaponCaseLongLaserCarbineExpedition
+    - WeaponCaseLongLaserCarbine
     - WeaponCaseLongHristovExpedition
     - WeaponCaseShortSvalinnExpedition
     - WeaponCaseShortAdvancedLaserExpedition

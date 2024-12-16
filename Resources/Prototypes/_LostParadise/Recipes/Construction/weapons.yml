@@ -1,0 +1,40 @@
+- type: construction
+  name: improvised crossbow
+  id: ImprovisedCrossbow
+  graph: ImprovisedCrossbow
+  startNode: start
+  targetNode: ImprovisedCrossbow
+  category: construction-category-weapons
+  description: A shoddily constructed crossbow made out of scrap. It's not much, but it's gotten the job done for millennia.
+  icon: { sprite: _LostParadise/Objects/Weapons/Guns/Crossbow/improvised.rsi, state: icon }
+  objectType: Item
+
+- type: constructionGraph
+  id: ImprovisedCrossbow
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: ImprovisedCrossbow
+      steps:
+      - material: WoodPlank
+        amount: 10
+        doAfter: 4
+      - material: Cloth
+        amount: 10
+        doAfter: 4
+      - material: Cable
+        amount: 3
+        doAfter: 0.5
+      - material: MetalRod
+        amount: 5
+        doAfter: 0.5
+  - node: ImprovisedCrossbow
+    entity: CrossbowImprovised
+    edges:
+    - to: ImprovisedCrossbowHand
+      steps:
+      - tool: Sawing
+        doAfter: 2
+  - node: ImprovisedCrossbowHand
+    entity: CrossbowImprovisedHand

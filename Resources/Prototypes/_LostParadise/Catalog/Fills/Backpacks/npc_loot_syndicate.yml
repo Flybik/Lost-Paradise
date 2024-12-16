@@ -189,7 +189,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponLaserSvalinnExpedition
+      - id: WeaponLaserSvalinn
       - id: PowerCellHyperPrinted
       - id: PowerCellHyperPrinted
       - id: SpaceCash2500
@@ -417,7 +417,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponSubMachineGunAtreidesExpedition
+      - id: WeaponSubMachineGunAtreides
       - id: MagazinePistolSubMachineGun
       - id: MagazinePistolSubMachineGun
       - id: SpaceCash1000
@@ -448,7 +448,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponSubMachineGunWt550Expedition
+      - id: WeaponSubMachineGunWt550
       - id: MagazinePistolSubMachineGunTopMounted
       - id: SpaceCash1000
       - id: SpaceCash500
@@ -558,7 +558,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponPistolMk58Expedition
+      - id: WeaponPistolMk58
       - id: MagazinePistol
       - id: SpaceCash1000
       # Bonus Loot T1
@@ -641,7 +641,7 @@
     state: icon-med
   - type: SpawnItemsOnUse
     items:
-      - id: HypoMiniLimitedEdition
+      - id: LPPHypospray
       - id: BruteAutoInjector
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
@@ -664,7 +664,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: HypoMini
+      - id: LPPHypospray
       - id: BruteAutoInjector
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
@@ -686,7 +686,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: HypoMini
+      - id: LPPHypospray
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
       - id: SpaceCash1000
@@ -731,7 +731,7 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponShotgunKammererExpedition
+      - id: WeaponShotgunKammerer
       - id: SyndicateJawsOfLife
       - id: BoxShotgunSlug
       - id: SpaceCash1000
@@ -760,7 +760,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponShotgunKammererExpedition
+      - id: WeaponShotgunKammerer
       - id: JawsOfLife
       - id: SpaceCash1000
       # Bonus Loot T2

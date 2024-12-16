@@ -67,9 +67,6 @@
     - id: SpawnDungeonLootPartsEngi
       amount: 3
       prob: 0.75
-    - id: HoloGraffitiProjectorEmpty
-      amount: 1
-      prob: 0.05
     # Bonus Loot T1
     - id: SpaceCash500
       prob: 0.9
@@ -107,12 +104,9 @@
     - id: SpawnDungeonLootPartsEngi
       amount: 3
       prob: 0.35
-    - id: WeaponCaseShortMk58Expedition
+    - id: WeaponCaseShortMk58
       amount: 1
       prob: 0.55
-    - id: HoloGraffitiProjectorEmpty
-      amount: 1
-      prob: 0.05
     # Bonus Loot T2
     - id: SpaceCash1000
       prob: 0.9
@@ -151,15 +145,12 @@
     - id: DrinkWhiskeyBottleFull
       prob: 0.15
       amount: 1
-    - id: WeaponCaseLongKammererExpedition
+    - id: WeaponCaseLongKammerer
       amount: 1
       prob: 0.55
     - id: SpawnDungeonLootPartsEngi
       amount: 3
       prob: 0.35
-    - id: HoloGraffitiProjectorEmpty
-      amount: 1
-      prob: 0.05
     # Bonus Loot T3
     - id: SpaceCash1000
       prob: 0.9
@@ -209,12 +200,9 @@
     - id: DrinkWhiskeyBottleFull
       prob: 0.35
       amount: 1
-    - id: WeaponCaseLongDrozdExpedition
+    - id: WeaponCaseLongDrozd
       amount: 1
       prob: 0.55
-    - id: HoloGraffitiProjector
-      amount: 1
-      prob: 0.45
     # Bonus Loot T3
     - id: SpaceCash1000
       prob: 0.9
@@ -264,15 +252,9 @@
     - id: DrinkWhiskeyBottleFull
       prob: 0.35
       amount: 1
-    - id: WeaponCaseLongLaserCarbineExpedition
+    - id: WeaponCaseLongLaserCarbine
       amount: 1
       prob: 0.55
-    - id: HoloGraffitiProjector
-      amount: 1
-      prob: 0.45
-    - id: NFBlueprintPortableRecharger
-      prob: 0.1
-      amount: 1
     # Bonus Loot T4
     - id: SpaceCash2500
       prob: 0.9

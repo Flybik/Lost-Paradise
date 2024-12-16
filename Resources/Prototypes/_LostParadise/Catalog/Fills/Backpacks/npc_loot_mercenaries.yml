@@ -56,7 +56,7 @@
     - id: SpaceCash500
       prob: 0.45
     # Weapons
-    - id: WeaponPistolMk58Expedition
+    - id: WeaponPistolMk58
       prob: 0.9
     # Armor
     - id: ClothingOuterVestWebMercenary
@@ -470,7 +470,7 @@
     - id: SpaceCash2500
       prob: 0.1
     # Weapons
-    - id: WeaponSniperRepeaterExpedition
+    - id: WeaponSniperRepeater
       prob: 0.9
     # Armor
     - id: ClothingOuterArmorBulletproof
