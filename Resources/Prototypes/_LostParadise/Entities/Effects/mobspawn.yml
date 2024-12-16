@@ -54,6 +54,17 @@
   - type: SpawnOnDespawn
     prototype: MobSaltCrab
 
+- type: entity
+  id: MobSpawnGoldCrabs
+  parent: MobSpawnCrabQuartz
+  name: mobspawner gold crab
+  components:
+  - type: Sprite
+    sprite: /Textures/_LostParadise/Effects/mobspawn.rsi
+    state: crab_gold
+  - type: SpawnOnDespawn
+    prototype: MobGoldCrab
+
 # Frontier
 - type: entity
   id: MobSpawnCrabNFQuartz

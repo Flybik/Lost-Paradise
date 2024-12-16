@@ -196,6 +196,9 @@
   id: LPPLavaMercenary
 
 - type: Tag
+  id: LPPCaveFactory
+
+- type: Tag
   id: ObjectOfSpiritualSignificance
 
 - type: Tag
