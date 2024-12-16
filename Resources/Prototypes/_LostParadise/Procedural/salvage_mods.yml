@@ -22,6 +22,11 @@
   cost: 2
   biome: Lava
 
+- type: LPsalvageBiomeMod
+  id: LPPShadow
+  desc: salvage-biome-mod-shadow
+  biome: Shadow
+
 #- type: salvageBiomeMod
 #  id: Space
 #  cost: 1
@@ -48,14 +53,14 @@
   desc: salvage-light-mod-daylight
   color: "#D8B059"
   biomes:
-  - Grasslands
+  - LPPGrasslands
 
 - type: LPsalvageLightMod
   id: LPPLavalight
   desc: salvage-light-mod-daylight
   color: "#A34931"
   biomes:
-  - Lava
+  - LPPLava
 
 - type: LPsalvageLightMod
   id: LPPEvening
@@ -216,11 +221,11 @@
   cost: 1
   temperature: 323.15 # 50C
   biomes:
-  - Caves
-  - Shadow
+  - LPPCaves
+  - LPPShadow
   #- LowDesert
-  - Grasslands
-  - Lava
+  - LPPGrasslands
+  - LPPLava
 
 - type: LPsalvageTemperatureMod
   id: LPPBurning
@@ -228,9 +233,9 @@
   cost: 2
   temperature: 423.15 # 200C
   biomes:
-  - Caves
+  - LPPCaves
   #- LowDesert
-  - Lava
+  - LPPLava
 
 - type: LPsalvageTemperatureMod
   id: LPPMelting
@@ -238,7 +243,7 @@
   cost: 4
   temperature: 1273.15 # 1000C hot hot hot
   biomes:
-  - Lava
+  - LPPLava
 
 - type: LPsalvageTemperatureMod
   id: LPPCold
@@ -246,11 +251,11 @@
   cost: 1
   temperature: 275.15 # 2C
   biomes:
-  - Shadow
-  - Caves
+  - LPPShadow
+  - LPPCaves
   #- LowDesert
-  - Grasslands
-  - Snow
+  - LPPGrasslands
+  - LPPSnow
 
 - type: LPsalvageTemperatureMod
   id: LPPTundra
@@ -258,9 +263,9 @@
   cost: 2
   temperature: 263.15 # -40C
   biomes:
-  - Shadow
-  - Caves
-  - Snow
+  - LPPShadow
+  - LPPCaves
+  - LPPSnow
 
 - type: LPsalvageTemperatureMod
   id: LPPFrozen
@@ -268,7 +273,7 @@
   cost: 4
   temperature: 123.15 # -150C
   biomes:
-    - Snow
+    - LPPSnow
 
 # Air mixtures
 - type: LPsalvageAirMod
@@ -277,8 +282,8 @@
   space: true
   cost: 2
   biomes:
-    - Caves
-    - Lava
+    - LPPCaves
+    - LPPLava
 
 - type: LPsalvageAirMod
   id: LPPBreathable
@@ -302,11 +307,11 @@
     - 0
     - 10 # nitrous oxide
   biomes:
-    - Caves
+    - LPPCaves
     #- LowDesert
-    - Snow
-    - Grasslands
-    - Lava
+    - LPPSnow
+    - LPPGrasslands
+    - LPPLava
 
 - type: LPsalvageAirMod
   id: LPPPoisoned
@@ -317,11 +322,11 @@
     - 77.10312 # nitrogen
     - 10 # carbon dioxide
   biomes:
-    - Caves
+    - LPPCaves
     #- LowDesert
-    - Snow
-    - Grasslands
-    - Lava
+    - LPPSnow
+    - LPPGrasslands
+    - LPPLava
 
 - type: LPsalvageAirMod
   id: LPPPoison
@@ -332,9 +337,9 @@
     - 0
     - 82.10312 # carbon dioxide
   biomes:
-    - Caves
-    - Snow
-    - Lava
+    - LPPCaves
+    - LPPSnow
+    - LPPLava
 
 - type: LPsalvageAirMod
   id: LPPPlasma
@@ -346,8 +351,8 @@
     - 0
     - 103.927899 # plasma
   biomes:
-    - Caves
-    - Lava
+    - LPPCaves
+    - LPPLava
 
 - type: LPsalvageAirMod
   id: LPPBurnable
@@ -359,8 +364,8 @@
     - 0
     - 82.10312 # plasma
   biomes:
-    - Caves
-    - Lava
+    - LPPCaves
+    - LPPLava
 
 # Weather mods -> not required
 #- type: salvageWeatherMod
@@ -494,12 +499,6 @@
   id: LPPRain
   desc: salvage-weather-mod-rain
   weather: Rain
-
-# Biome mods
-- type: salvageBiomeMod
-  id: Shadow
-  desc: salvage-biome-mod-shadow
-  biome: Shadow
 
 # Weather mods
 - type: salvageWeatherMod
