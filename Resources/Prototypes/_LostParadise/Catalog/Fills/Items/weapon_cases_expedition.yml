@@ -8,10 +8,43 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponPistolMk58Expedition
+    - id: WeaponPistolMk58
       amount: 1
     - id: MagazinePistol
       amount: 2
+
+- type: entity
+  name: weapon case
+  parent: WeaponCaseLong
+  id: WeaponCaseHeavy
+  description: A reinforced casing for storing heavy armaments.
+  suffix: Heavy
+  components:
+  - type: MultiHandedItem
+  - type: Sprite
+    sprite: _LostParadise/Objects/Storage/Cases/guncaseheavy.rsi
+  - type: Item
+    sprite: _LostParadise/Objects/Storage/Cases/guncaseheavy.rsi
+    size: Ginormous
+    shape:
+    - 0,0,8,3
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,7,3
+    whitelist:
+      components:
+      - Gun
+      - BallisticAmmoProvider
+      - Projectile
+      - CartridgeAmmo
+      - PowerCell
+      - MeleeWeapon
+      - Blocking
+      - WeaponCaseInsertable
+      - Armor
+      tags:
+      - Cartridge
 
 - type: entity
   parent: WeaponCaseShort
