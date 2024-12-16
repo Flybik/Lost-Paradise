@@ -573,11 +573,6 @@
   weather: Rain
 
 # Air mixtures
-- type: salvageAirMod
-  id: Space
-  desc: salvage-air-mod-no-atmosphere
-  space: true
-  cost: 2
 
 - type: salvageAirMod
   id: Mix1
