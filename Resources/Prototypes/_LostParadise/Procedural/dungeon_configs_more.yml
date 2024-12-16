@@ -3,7 +3,7 @@
   id: LPPEverything
   generator: !type:PrefabDunGen
     roomWhitelist:
-      - CaveFactory
+      - LPPCaveFactory
       - LPPLavaBrig
       - LPPLavaMercenary
       - LPPSalvageExperiment
