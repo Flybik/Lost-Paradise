@@ -216,11 +216,11 @@
     showExamineText: false
     availableModes:
     - SemiAuto
-    soundGunshot: null
+    # soundGunshot: null
   - type: RechargeBasicEntityAmmo
     showExamineText: false
     rechargeCooldown: 0
-    rechargeSound: null
+    # rechargeSound: null
   - type: BasicEntityAmmoProvider
     proto: MobHivelordBrood
     capacity: 1
@@ -268,7 +268,7 @@
       types:
         Slash: 7
   - type: Ammo
-    muzzleFlash: null
+    # muzzleFlash: null
   - type: Destructible
     thresholds:
     - trigger:
