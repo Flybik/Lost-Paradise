@@ -161,31 +161,3 @@
     color: red
     radius: 1.2
     softness: 1
-
-- type: entity
-  id: ShellSoapConjuredBloodCultCluster
-  parent:
-  - SoapConjured
-  - BaseCartridge
-  #- ConjuredObject10
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Objects/Specific/Wizard/conjuredsoap.rsi
-    layers:
-    - state: soap-4
-      shader: unshaded
-      color: red
-  - type: CartridgeAmmo
-    muzzleFlash: null
-    deleteOnSpawn: true
-    proto: SoapletBloodCultSpread # SoapConjuredBloodCultCluster
-
-- type: entity
-  id: SoapletBloodCultSpread
-  parent: SoapletBloodCult
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ProjectileSpread
-    proto: SoapletBloodCult
-    count: 35
-    spread: 40
