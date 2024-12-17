@@ -1,4 +1,25 @@
 - type: entity
+  id: BaseSpeedLoaderHeavyRifle
+  name: "speed loader (.20 rifle)"
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - SpeedLoaderRifleHeavy
+  - type: SpeedLoader
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeRifle
+    capacity: 8
+  - type: Sprite
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: entity
   id: SpeedLoaderRifleHeavy
   name: "speed loader (.20 rifle)"
   parent: BaseSpeedLoaderHeavyRifle
