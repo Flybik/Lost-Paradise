@@ -329,20 +329,20 @@
         amount: !type:ConstantNumberSelector
           value: 3
 
-- type: entity
-  parent: MarkerBase
-  id: SalvageSpawnerMobMiningAsteroid
-  name: Mining Asteroid Mob Spawner
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
-      state: goliath
-  - type: LPEntityTableSpawner
-    table: !type:GroupSelector
-      children:
-      - id: MobGoliath
-        weight: 65
-      - id: MobHivelord
-        weight: 35
+# - type: entity
+#   parent: MarkerBase
+#   id: SalvageSpawnerMobMiningAsteroid
+#   name: Mining Asteroid Mob Spawner
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#     - sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
+#       state: goliath
+#   - type: LPEntityTableSpawner
+#     table: !type:GroupSelector
+#       children:
+#       - id: MobGoliath
+#         weight: 65
+#       - id: MobHivelord
+#         weight: 35
