@@ -39,7 +39,7 @@
   description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Asteroid/goliath.rsi
+    sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goliath
@@ -99,10 +99,10 @@
   - type: EntityWorldTargetAction
     raiseOnUser: true
     icon:
-      sprite: Mobs/Aliens/Asteroid/goliath.rsi
+      sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
       state: goliath_tentacle_spawn
     iconOn:
-      sprite: Mobs/Aliens/Asteroid/goliath.rsi
+      sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
       state: goliath_tentacle_wiggle
     sound:
       path: "/Audio/Weapons/slash.ogg"
@@ -121,7 +121,7 @@
     canCollide: true
   - type: InteractionOutline
   - type: Sprite
-    sprite: Mobs/Aliens/Asteroid/goliath.rsi
+    sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
     layers:
     - state: goliath_tentacle_wiggle
   - type: StunOnContact
@@ -156,7 +156,7 @@
     bodyType: Static
     canCollide: false
   - type: Sprite
-    sprite: Mobs/Aliens/Asteroid/goliath.rsi
+    sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
   - type: InteractionOutline
   - type: TimedDespawn
     lifetime: 0.7
@@ -189,7 +189,7 @@
   description: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Asteroid/hivelord.rsi
+    sprite: _LostParadise/Mobs/Aliens/Asteroid/hivelord.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: hivelord
@@ -247,7 +247,7 @@
   description: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
   components:
   - type: Sprite
-    sprite: Mobs/Aliens/Asteroid/hivelord.rsi
+    sprite: _LostParadise/Mobs/Aliens/Asteroid/hivelord.rsi
     layers:
     - state: hivelordbrood
   - type: MovementSpeedModifier
