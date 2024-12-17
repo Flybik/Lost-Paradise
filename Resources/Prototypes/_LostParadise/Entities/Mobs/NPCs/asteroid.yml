@@ -305,7 +305,7 @@
         - ReagentId: Rororium
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Consumable/Food/rorocore.rsi
+    sprite: _LostParadise/Objects/Consumable/Food/rorocore.rsi
     state: boiled
   - type: Item
     size: Normal
@@ -326,7 +326,7 @@
   description: All that remains of a hivelord... Now all is truly lost.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/rorocore.rsi
+    sprite: _LostParadise/Objects/Consumable/Food/rorocore.rsi
     state: boiled
     color: "#664444"
   - type: SpaceGarbage
