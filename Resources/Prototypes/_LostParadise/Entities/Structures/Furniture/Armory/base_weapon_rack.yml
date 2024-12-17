@@ -15,7 +15,7 @@
   - type: Sprite
     snapCardinals: true
     noRot: true
-    sprite: _NF/Structures/Furniture/Armory/weapon_rack.rsi
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
     layers:
     - state: base-gun
       color: "#515e5e"
@@ -106,7 +106,7 @@
           components:
           - Gun
   - type: ItemMapper
-    sprite: _NF/Structures/Furniture/Armory/weapon_rack.rsi
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
     mapLayers:
       gun-1:
         minCount: 1
@@ -201,7 +201,7 @@
           components:
           - MeleeWeapon
   - type: ItemMapper
-    sprite: _NF/Structures/Furniture/Armory/weapon_rack.rsi
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
     mapLayers:
       melee-1:
         minCount: 1
@@ -298,7 +298,7 @@
           tags:
           - Sidearm
   - type: ItemMapper
-    sprite: _NF/Structures/Furniture/Armory/weapon_rack.rsi
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
     mapLayers:
       pistol-1:
         minCount: 1
