@@ -1079,7 +1079,7 @@
       - MagazineBoxRifleUranium
 
 - type: entity
-  parent: [BaseStructureDisableToolUse, BaseLathe]
+  parent: BaseLathe
   id: LPPPrizeCounter
   name: prize counter
   description: Claim your prize and win some toys and cute plushies!
