@@ -7,7 +7,6 @@
   - type: EnergySword
     colorOptions:
       - "#d4ffbf"
-    blockHacking: true
 
 - type: entity
   id: NFEnergyPickaxe

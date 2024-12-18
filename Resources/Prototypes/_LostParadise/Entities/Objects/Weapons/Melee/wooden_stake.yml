@@ -21,7 +21,7 @@
     - belt
   - type: Item
     size: Small
-    sprite: _NF/Objects/Weapons/Melee/wooden_stake.rsi
+    sprite: _LostParadise/Objects/Weapons/Melee/wooden_stake.rsi
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Wood

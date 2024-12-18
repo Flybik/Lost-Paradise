@@ -46,3 +46,152 @@
     - id: ClothingMaskGasExplorer
     - id: JetpackMiniFilled
     - id: ClothingShoesBootsMag
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitJanitor
+  description: Contains a standard issue janitor EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitJanitor
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitMail
+  description: Contains a standard issue mail carrier EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitMailman
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitHydro
+  description: Contains a standard issue botanist EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitHydro
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitPrivateSec
+  description: Contains a standard issue private security EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingOuterEVASuitPrivateSec
+    - id: ClothingMaskGasSecurity
+    - id: JetpackMiniFilled
+    - id: FlashlightSeclite
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitMercenary
+  description: Contains a standard issue mercenary EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingOuterEVASuitMercenary
+    - id: ClothingMaskGasMercenary
+    - id: JetpackMiniFilled
+    - id: FlashlightSeclite
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitBoxerBlue
+  description: Contains a blue boxer EVA suit and standard issue EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitBoxerBlue
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+    - id: ClothingHandsGlovesBoxingBlue
+    - id: ShardCrystalBlue
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitChaplain
+  description: Contains a standard issue chaplain EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitChaplain
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+    - id: Lantern
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitServiceWorker
+  description: Contains a standard issue service worker EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitServiceWorker
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitScientist
+  description: Contains a standard issue scientist EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitScientist
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitMedic
+  description: Contains a standard issue medical specialist EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitMedic
+    - id: ClothingMaskBreathMedical
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitPilot
+  description: Contains a standard issue pilot EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitPilot
+    - id: ClothingMaskPilot
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitContractor
+  description: Contains a standard issue contractor EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitContractor
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled

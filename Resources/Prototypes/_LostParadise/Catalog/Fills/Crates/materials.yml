@@ -22,3 +22,14 @@
       - id: SheetSteel
       - id: SheetPlasma
       - id: SheetPlasteel
+
+- type: entity
+  id: CrateMaterialMetalRods
+  parent: CrateGenericSteel
+  name: metal rods crate
+  description: 90 metal rods, packed with reckless abandon.
+  components:
+  - type: StorageFill
+    contents:
+    - id: PartRodMetal
+      amount: 3
