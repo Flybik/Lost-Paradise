@@ -9,7 +9,7 @@
     - Wooden
     - WeaponMeleeStake
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/wooden_stake.rsi
+    sprite: _LostParadise/Objects/Weapons/Melee/wooden_stake.rsi
     layers:
     - state: icon
     - state: solution1
