@@ -26,6 +26,8 @@
   - type: PhysicalComposition
     materialComposition:
       Wood: 200
+  - type: AddAccentPickup # Frontier
+    accent: CavemanAccent # Frontier
 
 - type: entity
   name: caveman club
