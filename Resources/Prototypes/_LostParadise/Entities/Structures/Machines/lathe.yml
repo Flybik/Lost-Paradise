@@ -1,22 +1,5 @@
 - type: entity
-  id: BlueprintReceiverBase
-  abstract: true
-  components:
-  - type: BlueprintReceiver
-    whitelist:
-      tags:
-      - BlueprintAutolathe
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      blueprint: !type:Container
-  - type: EmptyOnMachineDeconstruct
-    containers:
-    - blueprint
-
-- type: entity
-  parent: [ BlueprintReceiverBase, BaseLatheLube ]
+  parent: BaseLatheLube
   id: ScienceTechFab
   name: science techfab
   description: Prints equipment for use by the epistemics department.
@@ -108,7 +91,7 @@
       - ClothingOuterHardsuitRd
 
 - type: entity
-  parent: [ BlueprintReceiverBase, BaseLatheLube ]
+  parent: BaseLatheLube
   id: ServiceTechFab
   name: service techfab
   description: Prints equipment for service staff.
@@ -274,7 +257,7 @@
       - NFHappyHonkCluwneEmpty
 
 - type: entity
-  parent: [ BlueprintReceiverBase, BaseLatheLube ]
+  parent: BaseLatheLube
   id: EngineeringTechFab
   name: engineering techfab
   description: Prints equipment for engineers.
@@ -430,7 +413,7 @@
       - ConstructionBagOfHolding
 
 - type: entity
-  parent: [ BlueprintReceiverBase, BaseLatheLube ]
+  parent: BaseLatheLube
   id: SalvageTechfabNF
   name: salvage techfab
   description: Prints equipment for salvagers.
@@ -552,7 +535,7 @@
 
 - type: entity
   id: NfsdTechFab
-  parent: [ BlueprintReceiverBase, SecurityTechFab ]
+  parent: SecurityTechFab
   name: nfsd techfab
   description: Prints equipment for use by nfsd.
   components:
@@ -683,7 +666,7 @@
 
 - type: entity
   id: MercenaryTechFab
-  parent: [ BlueprintReceiverBase, BaseLatheLube ]
+  parent: BaseLatheLube
   name: mercenary techfab
   description: Prints the bare minimum of tools of the trade that any budget mercenary or private security could need. Nothing fancy.
   components:
