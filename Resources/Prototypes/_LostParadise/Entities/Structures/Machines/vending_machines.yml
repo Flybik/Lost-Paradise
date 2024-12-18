@@ -325,7 +325,7 @@
     rotateWhilePulling: true
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineCuddlyCritterVend
   name: CuddlyCritterVend
   description: Step into the world of wonder and warmth with Cuddly Critters Vending Machine, a haven for plushie and toy enthusiasts alike.
@@ -779,7 +779,7 @@
     access: [["Security"]]
 
 - type: entity
-  parent: [BaseStructureDisableScrewing, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, VendingMachineCart]
+  parent: [ BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, VendingMachineCart]
   id: NFVendingMachineCart
   suffix: SR
   components:
@@ -872,7 +872,7 @@
     color: "#4b93ad"
 
 - type: entity
-  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, VendingMachine]
+  parent: [ BaseStructureIndestructible, VendingMachine]
   id: VendingMachineFuelVend
   name: FuelVend
   description: A vendor selling fuel for ship engines. Smells like ozone.
