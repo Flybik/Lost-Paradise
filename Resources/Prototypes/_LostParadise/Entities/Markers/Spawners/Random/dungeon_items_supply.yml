@@ -181,8 +181,6 @@
     - SuitStorageBase
     - SuitStorageBasic
     - SuitStorageSalv
-    - SuitStorageEVACargo
-    - SuitStorageEVASalvage
     chance: 1
     offset: 0.0
     rarePrototypes:

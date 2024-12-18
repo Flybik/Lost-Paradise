@@ -96,7 +96,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverArgentiExpedition
+    - id: WeaponRevolverArgenti
       amount: 1
     - id: SpeedLoaderRifleHeavy
       amount: 2
@@ -109,7 +109,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverDeckardExpedition
+    - id: WeaponRevolverDeckard
       amount: 1
     - id: SpeedLoaderMagnum
       amount: 2
@@ -135,7 +135,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverMatebaExpedition
+    - id: WeaponRevolverMateba
       amount: 1
     - id: SpeedLoaderMagnum
       amount: 2
@@ -148,7 +148,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverPirateExpedition
+    - id: WeaponRevolverPirate
       amount: 1
     - id: SpeedLoaderMagnum
       amount: 2
@@ -162,7 +162,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunHandmadeExpedition
+    - id: WeaponShotgunHandmade
       amount: 1
     - id: BoxLethalshot
       amount: 1
@@ -175,7 +175,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunDoubleBarreledExpedition
+    - id: WeaponShotgunDoubleBarreled
       amount: 1
     - id: BoxLethalshot
       amount: 2
@@ -188,7 +188,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunSawnExpedition
+    - id: WeaponShotgunSawn
       amount: 1
     - id: BoxLethalshot
       amount: 1
@@ -201,7 +201,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunKammererExpedition
+    - id: WeaponShotgunKammerer
       amount: 1
     - id: BoxLethalshot
       amount: 2
@@ -214,7 +214,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunEnforcerExpedition
+    - id: WeaponShotgunEnforcer
       amount: 1
     - id: BoxLethalshot
       amount: 2
@@ -243,7 +243,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunWt550Expedition
+    - id: WeaponSubMachineGunWt550
       amount: 1
     - id: MagazinePistolSubMachineGunTopMounted
       amount: 2
@@ -258,7 +258,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunAtreidesExpedition
+    - id: WeaponSubMachineGunAtreides
       amount: 1
     - id: MagazinePistolSubMachineGun
       amount: 2
@@ -273,7 +273,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunDrozdExpedition
+    - id: WeaponSubMachineGunDrozd
       amount: 1
     - id: MagazinePistolSubMachineGun
       amount: 2
@@ -317,7 +317,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleNovaliteC1Expedition
+    - id: WeaponRifleNovaliteC1
       amount: 1
     - id: MagazineNovaliteC1
       amount: 2
@@ -383,7 +383,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLaserGunExpedition
+    - id: WeaponLaserGun
       amount: 2
 
 - type: entity
@@ -394,7 +394,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLaserSvalinnExpedition
+    - id: WeaponLaserSvalinn
       amount: 1
     - id: PowerCellHigh
       amount: 2
@@ -418,7 +418,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponEnergyGunExpedition
+    - id: WeaponEnergyGun
       amount: 1
 
 - type: entity
@@ -429,7 +429,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponAdvancedLaserExpedition
+    - id: WeaponAdvancedLaser
       amount: 1
 
 - type: entity
@@ -440,7 +440,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLaserCannonExpedition
+    - id: WeaponLaserCannon
       amount: 1
 
 - type: entity
@@ -451,7 +451,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponXrayCannonExpedition
+    - id: WeaponXrayCannon
       amount: 1
 
 # Sniper
@@ -463,7 +463,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSniperMosinExpedition
+    - id: WeaponSniperMosin
       amount: 1
     - id: MagazineBoxLightRifle
       amount: 2
@@ -502,7 +502,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponMusketExpedition
+    - id: Musket
       amount: 1
     - id: MagazineBoxAntiMateriel
       amount: 2
@@ -660,20 +660,6 @@
     - id: C4
       amount: 2
 
-# Turrets
-- type: entity
-  parent: WeaponCaseHeavy
-  id: WeaponCaseHeavyAsmgtExpeditions
-  suffix: packed ASMGT, Expeditions
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StorageFill
-    contents:
-    - id: WeaponTurretAsmgtHostileUniversallyPacked
-      amount: 1
-    - id: MagazineAsmgtUniversalPistol
-      amount: 4
-
 # Ammo
 ## .20 rifle
 - type: entity
@@ -802,13 +788,6 @@
   - WeaponCaseShortAmmo
   - StorageFillAmmoBoxUranium35
   id: WeaponCaseShortAmmoBoxUranium35
-  categories: [ HideSpawnMenu ]
-
-- type: entity
-  parent:
-  - WeaponCaseShortAmmo
-  - StorageFillAmmoBoxEmp35
-  id: WeaponCaseShortAmmoBoxEmp35
   categories: [ HideSpawnMenu ]
 
 ## .25 caseless

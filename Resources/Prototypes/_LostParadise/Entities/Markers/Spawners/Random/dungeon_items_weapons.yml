@@ -86,7 +86,7 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseShortMk58
+    - WeaponCaseShortMk58Expedition
     - WeaponCaseShortArgentiExpedition
     - WeaponCaseShortLaserGunExpedition
     #- WeaponCaseShortHandmadeExpedition
@@ -356,7 +356,6 @@
     - WeaponCaseLongM90Expedition
     - WeaponCaseLongC20r
     - WeaponCaseLongAkExpedition
-    - WeaponCaseHeavyAsmgtExpeditions
     - WeaponCaseLongEnforcerExpedition
     - WeaponCaseLongLaserCannonExpedition
     chance: 1.0
@@ -436,7 +435,6 @@
     - WeaponCaseLongLauncherRocketExpedition
     - WeaponCaseLongLauncherChinaLake
     - WeaponCaseLongLightMachineGunL6
-    - WeaponCaseHeavyAsmgtExpeditions
     - WeaponCaseLongXrayCannonExpedition
     chance: 1.0
     offset: 0.0
@@ -492,7 +490,6 @@
     - WeaponCaseShortAmmoBoxBigLethal20
     - WeaponCaseShortAmmoBoxBigLethal30
     - WeaponCaseShortAmmoBoxBigLethal25
-    - WeaponCaseShortAmmoBoxEmp35
     - WeaponCaseShortAmmoBoxFlareShotgun
     - SpawnDungeonLootAmmoRubber
     - SpawnDungeonLootAmmoPractice

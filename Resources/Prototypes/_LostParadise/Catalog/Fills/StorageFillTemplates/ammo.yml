@@ -181,16 +181,6 @@
     - id: MagazineBoxPistolUranium
       amount: 4
 
-- type: entity # EMP
-  abstract: true
-  id: StorageFillAmmoBoxEmp35
-  suffix: .35 pistol, EMP, x4 boxes
-  components:
-  - type: StorageFill
-    contents:
-    - id: MagazineBoxPistolEmp
-      amount: 4
-
 # .25 caseless ammo
 - type: entity # Lethal
   abstract: true

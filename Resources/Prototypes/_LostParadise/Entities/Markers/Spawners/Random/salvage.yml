@@ -405,8 +405,6 @@
         - SuitStorageEVA
         - SuitStorageEVAAlternate
         - SuitStorageEVAEmergency
-#        - SuitStorageEVAPrisoner
-#        - SuitStorageEVAPirate
         - SuitStorageBasic
         - SuitStorageEngi
         - SuitStorageAtmos
