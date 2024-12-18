@@ -349,7 +349,7 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - SalvageTechfabNF
+    # - SalvageTechfabNF
     # - ScienceTechFab
     # - ServiceTechFab
     # - EngineeringTechFab
@@ -406,9 +406,9 @@
     - VendingMachineSovietSoda
     - VendingMachineGames
     - VendingMachineHappyHonk
-    - VendingMachineCuddlyCritterVend
-    - VendingMachineAutoTuneVend
-    - VendingMachinePottedPlantVend
+    # - VendingMachineCuddlyCritterVend
+    # - VendingMachineAutoTuneVend
+    # - VendingMachinePottedPlantVend
     - WaterCooler
     - SpawnDungeonMachineFrame
     #- VendingMachineChang # No food vendomats in expeds - buy from food ships or die
@@ -489,9 +489,9 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    - LessLethalVendingMachine
-    - VendingMachineFlatpackVend
-    - VendingMachineExpeditionaryFlatpackVend
+    # - LessLethalVendingMachine
+    # - VendingMachineFlatpackVend
+    # - VendingMachineExpeditionaryFlatpackVend
     - VendingMachineAmmo
     - VendingMachineSec
     - SpawnDungeonMachineFrame
@@ -972,12 +972,12 @@
     - VendingMachineRestockVendomat
     - VendingMachineRestockRobotics
     - VendingMachineRestockChemVend
-    - VendingMachineRestockAstroVend
-    - VendingMachineRestockAmmo
-    - VendingMachineRestockLessLethalVend
-    - VendingMachineRestockNonLethalVend
-    - VendingMachineRestockAutoTuneVend
-    - VendingMachineRestockPottedPlantVend
+    # - VendingMachineRestockAstroVend
+    # - VendingMachineRestockAmmo
+    # - VendingMachineRestockLessLethalVend
+    # - VendingMachineRestockNonLethalVend
+    # - VendingMachineRestockAutoTuneVend
+    # - VendingMachineRestockPottedPlantVend
     chance: 0.95
     offset: 0.0
 #    rarePrototypes:
