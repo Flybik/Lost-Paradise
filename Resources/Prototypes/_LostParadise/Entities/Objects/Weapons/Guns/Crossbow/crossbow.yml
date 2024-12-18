@@ -288,3 +288,29 @@
   - type: Construction
     graph: ImprovisedCrossbow
     node: ImprovisedCrossbowHand
+
+- type: entity
+  id: CrossbowBloodCultHand
+  parent: BaseCrossbow
+  name: blood cult hand crossbow
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Crossbow/culthand.rsi
+  - type: StaticPrice
+    price: 300
+  - type: Construction
+    graph: CultCrossbowHand
+    node: CrossbowBloodCultHand
+
+- type: entity
+  id: CrossbowModernHand
+  parent: BaseCrossbow
+  name: hand crossbow
+  components:
+  - type: UseDelay
+    delay: 0.5
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Crossbow/crossbowhand.rsi
+  - type: Construction
+    graph: ModernCrossbowHand
+    node: CrossbowModernHand
