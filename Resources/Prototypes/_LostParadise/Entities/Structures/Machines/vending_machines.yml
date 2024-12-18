@@ -352,8 +352,6 @@
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  - type: MarketModifier
-    mod: 15
 
 - type: entity
   parent: VendingMachine
@@ -421,8 +419,6 @@
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  - type: MarketModifier
-    mod: 25
 
 - type: entity
   parent: VendingMachineFlatpackVend
@@ -787,8 +783,6 @@
     pack: NFPTechInventory
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
-  - type: MarketModifier
-    mod: 5
 
 - type: entity
   parent: NFVendingMachineCart
@@ -918,8 +912,6 @@
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  - type: MarketModifier
-    mod: 30 # damn
   - type: Sprite
     sprite: _LostParadise/Structures/Machines/VendingMachines/civimed.rsi
     layers:
