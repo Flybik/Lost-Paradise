@@ -339,7 +339,7 @@
   - type: Advertise
     pack: CuddlyCritterAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/cuddlycritter.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/cuddlycritter.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -370,7 +370,7 @@
   - type: Advertise
     pack: AstroVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/astrovend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/astrovend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -408,7 +408,7 @@
 #  - type: Advertise
 #    pack: FlatpackVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/flatpackvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/flatpackvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -433,7 +433,7 @@
   - type: VendingMachine
     pack: ExpeditionaryFlatpackVendInventory
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]
@@ -458,7 +458,7 @@
   - type: Advertise
     pack: SyndieDrobeAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/contravend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/contravend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -492,7 +492,7 @@
 #  - type: Advertise
 #    pack: BountyVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/bountyvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/bountyvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -533,7 +533,7 @@
     - type: Advertise
       pack: ArcadiaDrobeAds
     - type: Sprite
-      sprite: _NF/Structures/Machines/VendingMachines/arcadiadrobe.rsi
+      sprite: _LostParadise/Structures/Machines/VendingMachines/arcadiadrobe.rsi
       layers:
       - state: "off"
         map: ["enum.VendingMachineVisualLayers.Base"]
@@ -566,7 +566,7 @@
     - type: Advertise
       pack: LessLethalVendAds
     - type: Sprite
-      sprite: _NF/Structures/Machines/VendingMachines/lesslethalvend.rsi
+      sprite: _LostParadise/Structures/Machines/VendingMachines/lesslethalvend.rsi
       layers:
       - state: "off"
         map: ["enum.VendingMachineVisualLayers.Base"]
@@ -607,7 +607,7 @@
     - type: Advertise
       pack: LessLethalVendAds
     - type: Sprite
-      sprite: _NF/Structures/Machines/VendingMachines/nonlethalvend.rsi
+      sprite: _LostParadise/Structures/Machines/VendingMachines/nonlethalvend.rsi
       layers:
       - state: "off"
         map: ["enum.VendingMachineVisualLayers.Base"]
@@ -637,7 +637,7 @@
 #  - type: Advertise
 #    pack: AutoTuneVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/autotunevend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/autotunevend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -686,7 +686,7 @@
   - type: Advertise
     pack: MegaSeedAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/pottedplantvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/pottedplantvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -716,7 +716,7 @@
   - type: Advertise
     pack: NfsdDrobeAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/nfsddrobe.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/nfsddrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -742,7 +742,7 @@
   - type: Advertise
     pack: YarrrDrobeAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/yarrrdrobe.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/yarrrdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -766,7 +766,7 @@
   - type: Advertise
     pack: NfsdDrobeAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/nfsdtech.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/nfsdtech.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -824,13 +824,13 @@
     layers:
     - state: "broken"
       map: ["enum.VendingMachineVisualLayers.Base"]
-    - sprite: _NF/Structures/Machines/VendingMachines/vandalized.rsi
+    - sprite: _LostParadise/Structures/Machines/VendingMachines/vandalized.rsi
       state: clothing-vandalized-unshaded
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-    - sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    - sprite: _LostParadise/Structures/Holo/graffiti/simple.rsi
       state: holograffiti01
       map: [ "graffiti" ]
       shader: unshaded
@@ -852,7 +852,7 @@
   - type: Advertise
     pack: VandalizedBountyVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/bountyvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/bountyvend.rsi
     layers:
     - state: "broken"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -861,7 +861,7 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-    - sprite: _NF/Structures/Holo/graffiti/simple.rsi
+    - sprite: _LostParadise/Structures/Holo/graffiti/simple.rsi
       state: holograffiti01
       map: [ "graffiti" ]
       shader: unshaded
@@ -890,7 +890,7 @@
   - type: SpeakOnUIClosed
     pack: FuelVendGoodbyes
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/fuelvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/fuelvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -921,7 +921,7 @@
   - type: MarketModifier
     mod: 30 # damn
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/civimed.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/civimed.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -944,7 +944,7 @@
   description: CiviMed, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/wallcivimed.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/wallcivimed.rsi
 
 - type: entity
   parent: VendingMachine
@@ -963,7 +963,7 @@
   - type: SpeakOnUIClosed
     pack: ValetDrobeGoodbyes
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/valetdrobe.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/valetdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -996,7 +996,7 @@
   - type: SpeakOnUIClosed
     pack: MailVendGoodbyes
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/mailvend.rsi
+    sprite: _LostParadise/Structures/Machines/VendingMachines/mailvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
