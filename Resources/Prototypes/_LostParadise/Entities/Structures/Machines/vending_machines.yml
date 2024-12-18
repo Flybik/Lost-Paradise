@@ -356,7 +356,7 @@
     mod: 15
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineAstroVend
   name: AstroVend
   description: Essential gear for the spaceman on the go.
@@ -393,7 +393,7 @@
     pack: AstroVendPOIInventory
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineFlatpackVend
   name: FlatpackVend
   description: Essential tech for the spaceman on the go.
@@ -425,7 +425,7 @@
     mod: 25
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachineFlatpackVend]
+  parent: VendingMachineFlatpackVend
   id: VendingMachineExpeditionaryFlatpackVend
   name: Expeditionary FlatpackVend
   description: Essential tech for the spaceman on an expedition.
@@ -436,7 +436,7 @@
     sprite: _LostParadise/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineSyndieContraband
   name: ContraVend
   description: Wanted across multiple sectors!
@@ -507,7 +507,7 @@
     color: "#4b93ad"
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachineBountyVend ]
+  parent: VendingMachineBountyVend
   id: VendingMachineBountyVendPOI
   suffix: POI
   components:
@@ -581,7 +581,7 @@
       color: "#ff033e"
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, LessLethalVendingMachine]
+  parent: LessLethalVendingMachine
   id: LessLethalVendingMachinePOI
   suffix: POI
   components:
@@ -622,7 +622,7 @@
       color: "#ff033e"
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineAutoTuneVend
   name: AutoTune
   description: Feeling BASSed? Time to TUNE into AutoVend! Take NOTES and let your audience TREBLE.
@@ -671,7 +671,7 @@
   # - type: GhostTakeoverAvailable
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachinePottedPlantVend
   name: Plant-O-Matic
   description: Sometimes potted plants are the best crewmates money can get.
@@ -703,7 +703,7 @@
     color: "#EEEEFF"
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineNfsdDrobe
   name: NFSDDrobe
   description: A vending machine for NFSD and NFSD clothing!
@@ -729,7 +729,7 @@
     access: [["Security"]]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineYarrrDrobe
   name: YarrrDrobe
   description: A vending machine for skallywags and booty lovers!
@@ -753,7 +753,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: VendingMachine
   id: VendingMachineNfsdTech
   name: NFSDTech
   description: A vending machine for NFSD and NFSD tech!
@@ -932,13 +932,13 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachine]
+  parent: [BaseCiviMedVend, BaseStructureIndestructible, VendingMachine]
   id: VendingMachineCiviMedPlus
   name: CiviMed Plus
   description: CiviMed Plus, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
 
 - type: entity
-  parent: [BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachineWallmount]
+  parent: [BaseCiviMedVend, BaseStructureIndestructible, VendingMachineWallmount]
   id: VendingMachineCiviMed
   name: CiviMed
   description: CiviMed, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
