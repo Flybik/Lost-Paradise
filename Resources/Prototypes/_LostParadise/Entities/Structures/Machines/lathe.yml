@@ -1080,7 +1080,7 @@
 
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseLathe]
-  id: LPPrizeCounter
+  id: LPPPrizeCounter
   name: prize counter
   description: Claim your prize and win some toys and cute plushies!
   components:
@@ -1292,7 +1292,7 @@
   description: It produces sheets and ingots using scrap.
   components:
   - type: Sprite
-    sprite: _LostParadise/Structures/Machines/scrap_processor.rsi
+    sprite: _NF/Structures/Machines/scrap_processor.rsi
     layers:
     - state: icon
       map: ["enum.LatheVisualLayers.IsRunning"]

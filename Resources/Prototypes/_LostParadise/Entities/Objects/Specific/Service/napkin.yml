@@ -44,7 +44,7 @@
   description: A small napkin.
   components:
   - type: Sprite
-    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    sprite: _LostParadise/Objects/Misc/bureaucracy_NF.rsi
     layers:
     - state: napkin
     - state: napkin_words
