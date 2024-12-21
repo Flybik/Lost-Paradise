@@ -7,7 +7,7 @@
   - type: EmbeddableProjectile
     offset: -0.15,0.0
   - type: Sprite
-    sprite: _NF/Mobs/Aliens/flesh.rsi
+    sprite: _LostParadise/Mobs/Aliens/flesh.rsi
     layers:
     - state: spike
     - state: spikeSolution1
