@@ -46,8 +46,6 @@
         Structural: 30
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
-  - type: ReplacementAccent
-    accent: streetpunk
   - type: Advertise
     pack: spacepunkhumanoidchatter
     minimumWait: 30
