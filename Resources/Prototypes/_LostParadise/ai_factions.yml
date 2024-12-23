@@ -49,11 +49,9 @@
   - Xeno
   # ## Frontier Factions
   # - Monkey
-  # - Goblin
-  # - SyndicateNF
+  # - Syndicate
   # - WizFedFaction
   # #- BloodCultNF
-  # - PirateNF
   # - ExplorersExpeditionNF
   # - ArtifactConstruct
   - StreetGangNF
@@ -78,11 +76,9 @@
   - Xeno
   # ## Frontier Factions
   # - Monkey
-  # - Goblin
-  # - SyndicateNF
+  # - Syndicate
   # - WizFedFaction
   - BloodCultNF
-  # - PirateNF
   # - ExplorersExpeditionNF
   # - ArtifactConstruct
   - StreetGangNF
@@ -107,11 +103,9 @@
   - Xeno
   # ## Frontier Factions
   # - Monkey
-  # - Goblin
-  # - SyndicateNF
+  # - Syndicate
   # - WizFedFaction
   - BloodCultNF
-  # - PirateNF
   # - ExplorersExpeditionNF
   # - ArtifactConstruct
   # #- StreetGangNF
@@ -136,12 +130,166 @@
   - Xeno
   ## Frontier Factions
   - Monkey
-  - Goblin
-  - SyndicateNF
+  - Syndicate
   - WizFedFaction
   - BloodCultNF
-  - PirateNF
   - ExplorersExpeditionNF
   - StreetGangNF
   - DinosaursNF
   - MercenariesExpeditionNF
+
+- type: npcFaction
+  id: SiliconsExpeditionNF
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  - WizFedFaction
+  - BloodCultNF
+  - ExplorersExpeditionNF
+  - ArtifactConstruct
+  - StreetGangNF
+  - DinosaursNF
+  - MercenariesExpeditionNF
+  #- SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
+
+- type: npcFaction
+  id: DinosaursNF
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  - WizFedFaction
+  - BloodCultNF
+  - ExplorersExpeditionNF
+  - ArtifactConstruct
+  - StreetGangNF
+  #- DinosaursNF
+  - MercenariesExpeditionNF
+  - SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
+
+- type: npcFaction
+  id: ArtifactConstruct
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  #- WizFedFaction # Magic
+  - BloodCultNF
+  - ExplorersExpeditionNF
+  #- ArtifactConstruct
+  - StreetGangNF
+  - DinosaursNF
+  - MercenariesExpeditionNF
+  - SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
+
+- type: npcFaction
+  id: ExplorersExpeditionNF
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  - WizFedFaction
+  - BloodCultNF
+  #- ExplorersExpeditionNF
+  - ArtifactConstruct
+  - StreetGangNF
+  - DinosaursNF
+  - MercenariesExpeditionNF
+  - SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
+
+- type: npcFaction
+  id: BloodCultNF
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  - WizFedFaction
+  #- BloodCultNF
+  - ExplorersExpeditionNF
+  - ArtifactConstruct
+  - StreetGangNF
+  - DinosaursNF
+  - MercenariesExpeditionNF
+  - SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
+
+- type: npcFaction
+  id: WizFedFaction
+  hostile:
+  ## SS14 factions
+  - NanoTrasen
+  - Syndicate
+  - SimpleHostile
+  - SimpleNeutral
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Xeno
+  ## Frontier Factions
+  - Monkey
+  - Syndicate
+  #- WizFedFaction
+  - BloodCultNF
+  - ExplorersExpeditionNF
+  #- ArtifactConstruct
+  - StreetGangNF
+  - DinosaursNF
+  - MercenariesExpeditionNF
+  - SiliconsExpeditionNF
+  - AberrantFleshExpeditionNF
