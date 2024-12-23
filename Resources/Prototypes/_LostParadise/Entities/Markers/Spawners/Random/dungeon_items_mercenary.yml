@@ -113,7 +113,7 @@
     rarePrototypes:
     - SpawnDungeonLootMeleeT2
     - SpawnDungeonLootGunT2
-    - SpawnDungeonLootExplosivesT1
+    - SpawnDungeonLootExplosivesT2
     rareChance: 0.1
 
 - type: entity
@@ -215,7 +215,6 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - SpawnDungeonLootExplosivesT1
     - SpawnDungeonLootExplosivesT2
     chance: 0.8
     offset: 0.0

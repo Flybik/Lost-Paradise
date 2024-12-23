@@ -128,7 +128,7 @@
           state: base
         doAfter: 1
       - component: Explosive
-        name: Firebomb
+        name: PipeBomb
         icon:
           sprite: Objects/Weapons/Bombs/ied.rsi
           state: base

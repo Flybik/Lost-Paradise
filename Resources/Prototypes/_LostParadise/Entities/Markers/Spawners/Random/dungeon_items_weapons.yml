@@ -99,31 +99,6 @@
     - SpawnDungeonLootGunT2
     rareChance: 0.1
 
-- type: entity
-  name: random weapon
-  id: SpawnDungeonLootExplosivesT1
-  parent: MarkerBasePlaceFree
-  suffix: "Dungeon, Explosives, T1"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Objects/Weapons/Bombs/seismic.rsi
-      state: icon
-    - sprite: Effects/crayondecals.rsi
-      state: 1
-      color: red
-  - type: RandomSpawner
-    prototypes:
-    - WeaponCaseShortFireBomb
-    chance: 0.3
-    offset: 0.0
-    rarePrototypes:
-    - SpawnDungeonLootExplosivesT2
-    rareChance: 0.1
-
 # T2: uncommon
 - type: entity
   name: random weapon

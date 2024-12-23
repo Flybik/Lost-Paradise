@@ -605,16 +605,6 @@
       amount: 1
 
 # Explosives
-- type: entity
-  parent: WeaponCaseShortExplosives
-  id: WeaponCaseShortFireBomb
-  suffix: Dungeon, Fire Bomb
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StorageFill
-    contents:
-    - id: FireBomb
-      amount: 4
 
 - type: entity
   parent: WeaponCaseShortExplosives
