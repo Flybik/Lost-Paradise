@@ -1226,9 +1226,9 @@
   description: A hardsuit tailored for someone who spends the majority of their time buckled to a chair.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/pilot.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/pilot.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

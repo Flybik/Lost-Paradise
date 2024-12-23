@@ -897,9 +897,9 @@
   components:
   - type: BreathMask
   - type: Sprite
-    sprite: _NF/Clothing/Head/Hardsuits/pilot.rsi
+    sprite: _LostParadise/Clothing/Head/Hardsuits/pilot.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Hardsuits/pilot.rsi
+    sprite: _LostParadise/Clothing/Head/Hardsuits/pilot.rsi
   - type: PointLight
     color: "#ffdbad"
   - type: PressureProtection
