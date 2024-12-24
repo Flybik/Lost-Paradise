@@ -27,7 +27,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnMobExplorerT2
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: explorer spawner
@@ -56,7 +56,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnMobExplorerT3
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: explorer spawner

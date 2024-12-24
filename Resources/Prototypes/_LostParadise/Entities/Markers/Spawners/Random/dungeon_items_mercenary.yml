@@ -32,7 +32,7 @@
     rarePrototypes:
     - SpawnDungeonLootHardsuitsMercenary
     - SpawnDungeonLootGunT2
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random clutter
@@ -372,7 +372,7 @@
     - LockerSyndicatePersonal
     # - LockerSyndicatePersonalFilled # Less Syndicate Loot
     - SpawnDungeonLootSuitStorageUnitsMercenary
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random suit storage unit
@@ -482,7 +482,7 @@
     - CrateAmmoBoxPractice35
     - CrateAmmoBoxPractice45
     - CrateAmmoBoxPracticeShotgun
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate
@@ -507,7 +507,7 @@
     rarePrototypes:
     - CrateSecurityRiot
     - CrateSecurityBiosuit
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate (restock)

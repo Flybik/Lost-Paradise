@@ -275,7 +275,7 @@
   - type: RandomSpawner
     rarePrototypes:
     - MobSpawnScrapbotLaser
-    rareChance: 0.05
+    rareChance: 0.1
     prototypes:
     - MobSpawnScrapbot
     - MobSpawnScrapbotThreads

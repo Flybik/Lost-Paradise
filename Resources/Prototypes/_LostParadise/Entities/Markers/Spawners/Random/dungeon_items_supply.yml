@@ -67,7 +67,7 @@
     - OreBagOfHolding
     - HandHeldMassScanner
     - SpawnDungeonLootHardsuitsSalvage
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Clothes
 - type: entity
@@ -127,7 +127,7 @@
     offset: 0.0
     rarePrototypes:
     - ClothingOuterHardsuitMaximPrototype
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Lockers
 - type: entity
@@ -158,7 +158,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootSuitStorageUnitsSalvage
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random suit storage unit
@@ -187,7 +187,7 @@
     - SuitStorageNTSRA
     - SuitStorageMining
     - SuitStorageQuartermaster
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Machines
 - type: entity
@@ -218,7 +218,7 @@
     rarePrototypes:
     - OreProcessorIndustrial
     - SpawnDungeonMachineFrame
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Other
 - type: entity

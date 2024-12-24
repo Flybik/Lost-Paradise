@@ -34,7 +34,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnMobMercenaryT2
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: mercenary spawner

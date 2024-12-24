@@ -111,7 +111,7 @@
     offset: 0.0
     rarePrototypes:
     - WeaponShotgunHandmade
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random tool
@@ -196,7 +196,7 @@
     rarePrototypes:
     - ClothingBackpackDuffelSurgeryImpovFilled
     - ClothingBackpackDuffelSyndicateFilledMedical
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random beaker
@@ -226,7 +226,7 @@
     offset: 0.0
     rarePrototypes:
     - BluespaceBeaker
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random medipens
@@ -388,7 +388,7 @@
     offset: 0.0
     rarePrototypes:
     - SyringeBluespace
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random hypospray
@@ -492,7 +492,7 @@
     rarePrototypes:
     - LockerChiefMedicalOfficer
     - LockerChiefMedicalOfficerFilled
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate

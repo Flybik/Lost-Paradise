@@ -25,7 +25,7 @@
     - SpawnDungeonLootFood
     - SpawnDungeonLootFlatpacksService
     - SpawnDungeonLootVendingRestocks
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Tools
 - type: entity
@@ -170,7 +170,7 @@
     offset: 0.0
     rarePrototypes:
     - KitchenDeepFryer
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate
@@ -352,7 +352,7 @@
     - FoodBreadMoldySlice
     - FoodBreadMoldy
     - FoodPizzaMoldySlice
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random flatpack

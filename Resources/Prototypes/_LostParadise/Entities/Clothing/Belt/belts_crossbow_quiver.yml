@@ -35,9 +35,6 @@
   - type: StorageContainerVisuals
     maxFillLevels: 5
     fillBaseName: fill-
-  - type: Construction
-    graph: CraftQuiverBolt
-    node: CraftQuiverBolt
 
 # Filled versions
 - type: entity

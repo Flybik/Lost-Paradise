@@ -24,7 +24,7 @@
     offset: 0.0
     rarePrototypes:
     - MobFleshAssimilatedMiner
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: newborn aberrant flesh spawner
@@ -52,4 +52,4 @@
     offset: 0.0
     rarePrototypes:
     - MobFleshAssimilatedMiner
-    rareChance: 0.05
+    rareChance: 0.1

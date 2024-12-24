@@ -31,7 +31,7 @@
     - SpawnDungeonLootToolbox
     - SpawnDungeonLootFlatpacksEngi
     - SpawnDungeonLootFlatpacks
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Engineering Tools
 - type: entity
@@ -234,7 +234,7 @@
     rarePrototypes:
     - SuitStorageNTSRA
     - SuitStorageCE
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate
@@ -428,7 +428,7 @@
     - BluespaceCapacitorStockPart
     - BluespaceManipulatorStockPart
     - BluespaceMatterBinStockPart
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random power cell
@@ -455,7 +455,7 @@
     rarePrototypes:
     - PowerCellMicroreactor
     - PowerCellPotato
-    rareChance: 0.01
+    rareChance: 0.1
 
 - type: entity
   name: random machine board
@@ -508,7 +508,7 @@
     - AutolatheHyperConvectionMachineCircuitboard
     - ProtolatheHyperConvectionMachineCircuitboard
     - ComputerIFFCircuitboard
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random flatpack
@@ -545,4 +545,4 @@
     - GeneratorRTGDamagedFlatpack
     - AmeControllerUnanchoredFlatpack
     - RadiationCollectorFullTankFlatpack
-    rareChance: 0.05
+    rareChance: 0.1

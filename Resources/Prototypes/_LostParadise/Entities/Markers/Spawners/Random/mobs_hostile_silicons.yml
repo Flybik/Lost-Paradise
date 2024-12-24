@@ -65,7 +65,7 @@
     rarePrototypes:
     - MobRogueSiliconScrapFlayer
     - SpawnMobRogueSiliconsT2
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: rogue unit spawner
@@ -103,7 +103,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnMobRogueSiliconsT3
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: rogue unit spawner
@@ -134,4 +134,4 @@
     offset: 0.0
     rarePrototypes:
     - MobRogueSiliconGuardian
-    rareChance: 0.05
+    rareChance: 0.1

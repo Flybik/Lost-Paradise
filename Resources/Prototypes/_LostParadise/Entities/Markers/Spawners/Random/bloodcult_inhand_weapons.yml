@@ -26,7 +26,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnInhandMeleeWeaponBloodCultHigh
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random melee weapon
@@ -82,4 +82,4 @@
     offset: 0.0
     rarePrototypes:
     - MobBloodCultShade
-    rareChance: 0.05
+    rareChance: 0.1

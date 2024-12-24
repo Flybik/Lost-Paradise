@@ -33,7 +33,7 @@
     rarePrototypes:
     - SpawnDungeonLootCircuitBoardScience
     - SpawnDungeonLootFlatpacksScience
-    rareChance: 0.05
+    rareChance: 0.1
 
 # Clothes
 - type: entity
@@ -211,7 +211,7 @@
     - TechnologyDiskRare
     - ResearchDisk10000
     - WeaponCaseShortDocumentsFilled
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random machine board
@@ -254,7 +254,7 @@
     - AutolatheHyperConvectionMachineCircuitboard
     - ProtolatheHyperConvectionMachineCircuitboard
     - ComputerIFFCircuitboard
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random flatpack

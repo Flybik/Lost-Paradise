@@ -131,7 +131,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootSuitStorageUnitsGeneral
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random suit storage unit
@@ -167,7 +167,7 @@
     - SuitStorageCE
     - SuitStorageQuartermaster
     - SuitStorageCMO
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random locker
@@ -273,7 +273,7 @@
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootCrateArmoryWeapon
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random crate
@@ -447,7 +447,7 @@
     rarePrototypes:
     - VendingMachineMagivend
     - SpawnDungeonMachineFrame
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random vendomat
@@ -622,7 +622,7 @@
     - SpaceCash10000
     - SpaceCash20000
     - SpaceCash30000
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random materials
@@ -661,7 +661,7 @@
     - CableMVStack
     - CableApcStack
     - SheetRGlass
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random materials
@@ -789,7 +789,7 @@
     offset: 0.0
     rarePrototypes:
     - BananiumOre
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random ores
@@ -819,7 +819,7 @@
     offset: 0.0
     rarePrototypes:
     - BananiumOre1
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random canister
@@ -916,7 +916,7 @@
     offset: 0.0
     rarePrototypes:
     - AmmoTechFabFlatpack
-    rareChance: 0.05
+    rareChance: 0.1
 
 - type: entity
   name: random restock box
