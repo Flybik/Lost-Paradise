@@ -158,7 +158,6 @@
     - CrateEngineeringThruster
     - CrateEngineeringGyroscope
     - CrateBodyBags
-    - CrateMedicalRollerBeds
     - CrateChemistrySupplies
     - CrateChemistryVials
     - CrateMedicalSupplies
@@ -210,7 +209,6 @@
     rarePrototypes:
     - TechnologyDiskRare
     - ResearchDisk10000
-    - WeaponCaseShortDocumentsFilled
     rareChance: 0.1
 
 - type: entity

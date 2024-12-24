@@ -173,32 +173,6 @@
     rareChance: 0.15
 
 - type: entity
-  name: random surgery kit
-  id: SpawnDungeonLootKitSurgery
-  parent: MarkerBasePlaceFree
-  suffix: Dungeon
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-        scale: 0.7, 0.7
-      - sprite: Clothing/Back/Duffels/medical.rsi
-        state: icon
-      - sprite: _LostParadise/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: RandomSpawner
-    prototypes:
-    - ClothingBackpackDuffelSurgeryFilled
-    - ClothingBackpackDuffelSurgeryAdvancedFilled
-    chance: 0.95
-    offset: 0.0
-    rarePrototypes:
-    - ClothingBackpackDuffelSurgeryImpovFilled
-    - ClothingBackpackDuffelSyndicateFilledMedical
-    rareChance: 0.1
-
-- type: entity
   name: random beaker
   id: SpawnDungeonClutterBeakerEmpty
   parent: MarkerBasePlaceFree

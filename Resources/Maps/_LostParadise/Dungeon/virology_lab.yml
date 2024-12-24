@@ -11270,28 +11270,6 @@ entities:
     - type: Transform
       pos: 42.59482,15.55036
       parent: 1653
-- proto: SpawnDungeonLootKitSurgery
-  entities:
-  - uid: 810
-    components:
-    - type: Transform
-      pos: 6.5202923,46.51293
-      parent: 1653
-  - uid: 1863
-    components:
-    - type: Transform
-      pos: 44.37607,12.503485
-      parent: 1653
-  - uid: 1864
-    components:
-    - type: Transform
-      pos: 44.360443,15.659735
-      parent: 1653
-  - uid: 2017
-    components:
-    - type: Transform
-      pos: 33.56157,22.57114
-      parent: 1653
 - proto: SpawnDungeonLootLathe
   entities:
   - uid: 1281

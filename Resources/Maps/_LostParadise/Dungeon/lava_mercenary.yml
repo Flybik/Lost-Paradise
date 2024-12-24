@@ -11189,13 +11189,6 @@ entities:
     - type: Transform
       pos: 30.6948,28.448412
       parent: 588
-- proto: SpawnDungeonLootKitSurgery
-  entities:
-  - uid: 1803
-    components:
-    - type: Transform
-      pos: 8.499318,42.572777
-      parent: 588
 - proto: SpawnDungeonLootLathe
   entities:
   - uid: 1027

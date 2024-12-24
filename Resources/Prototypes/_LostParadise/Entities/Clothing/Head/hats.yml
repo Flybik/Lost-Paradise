@@ -130,3 +130,14 @@
     sprite: _LostParadise/Clothing/Head/Hats/bounty_hunter_hat.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Hats/bounty_hunter_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase # Frontier: removed BaseRestrictedContraband
+  id: ClothingHeadHatBeretMercenary # Frontier: Merc to Mercenary
+  name: mercenary beret
+  description: Olive beret, the badge depicts a jackal on a rock.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_merc.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_merc.rsi

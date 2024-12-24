@@ -45,7 +45,7 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - NFAshtray
+    - Ashtray
     - FoodKebabSkewer
     - FoodPlateTin
     - FoodPlateSmall

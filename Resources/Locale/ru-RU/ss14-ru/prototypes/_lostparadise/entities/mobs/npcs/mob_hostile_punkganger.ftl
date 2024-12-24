@@ -10,5 +10,5 @@ ent-MobPunkGangerShotgun = { ent-MobPunkBase }
     .desc = { ent-MobPunkBase.desc }
 ent-MobPunkGangerArmoredMelee = { ent-MobPunkBase }
     .desc = { ent-MobPunkBase.desc }
-ent-MobPunkGangerArmoredElite = Лидер Панк-банды
+ent-MobPunkGangerLeader = Лидер Панк-банды
     .desc = Чтобы возглавить банду уличного отребья, нужна внушительная фигура. Эти лидеры обычно вооружены автоматами SMG и носят бронежилеты, отобранные у неудачливых сотрудников службы безопасности. Как правило, они под кайфом от метамфетамина и выпивки.
