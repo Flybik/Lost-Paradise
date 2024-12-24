@@ -280,7 +280,7 @@
     prototypes:
     - TelecomServerFlatpack
     - OreProcessorFlatpack
-    - SalvageTechfabNFFlatpack
+    # - SalvageTechfabNFFlatpack
     - ProtolatheFlatpack
     - OreProcessorIndustrialFlatpack
     - MaterialReclaimerFlatpack

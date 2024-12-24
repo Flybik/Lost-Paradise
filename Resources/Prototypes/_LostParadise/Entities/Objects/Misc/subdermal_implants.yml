@@ -39,7 +39,6 @@
     - Critical
   - type: GibOnTrigger
     deleteItems: true
-    deleteOrgans: true
   - type: SpawnOnTrigger
     proto: Acidifier
   - type: Tag
