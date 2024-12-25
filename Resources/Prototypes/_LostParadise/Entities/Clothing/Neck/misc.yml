@@ -49,3 +49,24 @@
       - state: equipped-NECK-on
         color: "#a9b6bd"
         shader: unshaded
+
+- type: entity
+  parent: ClothingNeckIFFNeutral
+  id: ClothingNeckIFFCyan
+  name: IFF cyan strobe
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/mercenary_iff.rsi
+    layers:
+    - state: icon-off
+    - state: icon-on
+      color: "#47f8ff"
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/mercenary_iff.rsi
+    clothingVisuals:
+      neck:
+      - state: equipped-NECK-off
+      - state: equipped-NECK-on
+        color: "#47f8ff"
+        shader: unshaded

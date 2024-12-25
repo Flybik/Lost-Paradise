@@ -473,9 +473,6 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    # - LessLethalVendingMachine
-    # - VendingMachineFlatpackVend
-    # - VendingMachineExpeditionaryFlatpackVend
     - VendingMachineAmmo
     - VendingMachineSec
     - SpawnDungeonMachineFrame

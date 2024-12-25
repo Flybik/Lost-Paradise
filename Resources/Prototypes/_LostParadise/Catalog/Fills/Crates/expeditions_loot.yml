@@ -207,3 +207,33 @@
       amount: 4
       orGroup: rtg
       prob: 0.2
+
+- type: entity
+  parent: CrateSecureMercenary
+  id: CrateSecureMercenaryHardsuitMagBoots
+  name: mercenary hardsuit crate
+  description: Contains a mercenary hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingShoesBootsMagMercenary
+    - id: ClothingOuterHardsuitMercenary
+    - id: ClothingMaskGasMercenary
+    - id: JetpackMiniFilled
+    - id: HandheldGPSBasic
+
+- type: entity
+  parent: CrateSecureMercenaryPrivateSec
+  id: CrateSecureMercenaryPrivateSecHardsuitMagBoots
+  name: private security hardsuit crate
+  description: Contains a private security hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingShoesBootsMagCombat
+    - id: ClothingOuterHardsuitPrivateSecurity
+    - id: ClothingMaskGasSecurity
+    - id: JetpackMiniFilled
+    - id: HandheldGPSBasic
