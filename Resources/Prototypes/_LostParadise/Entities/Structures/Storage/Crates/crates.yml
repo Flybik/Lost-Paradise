@@ -192,3 +192,284 @@
     contents:
       - id: WeaponEnergyGun
         amount: 3
+
+# Ammo Crate
+
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateAmmoSecureMercenary
+  name: secure ammo crate
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/Crates/secure_ammo.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/Crates/secure_ammo.rsi
+  - type: AccessReader
+    access: [["Mercenary"]]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethal20
+  id: CrateAmmoBoxLethal20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxBigLethal20
+  id: CrateAmmoBoxBigLethal20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubber20
+  id: CrateAmmoBoxRubber20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxBigRubber20
+  id: CrateAmmoBoxBigRubber20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPractice20
+  id: CrateAmmoBoxPractice20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxIncendiary20
+  id: CrateAmmoBoxIncendiary20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxUranium20
+  id: CrateAmmoBoxUranium20
+  categories: [ HideSpawnMenu ]
+
+## .30 rifle
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethal30
+  id: CrateAmmoBoxLethal30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxBigLethal30
+  id: CrateAmmoBoxBigLethal30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubber30
+  id: CrateAmmoBoxRubber30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPractice30
+  id: CrateAmmoBoxPractice30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxIncendiary30
+  id: CrateAmmoBoxIncendiary30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxUranium30
+  id: CrateAmmoBoxUranium30
+  categories: [ HideSpawnMenu ]
+
+## .35 pistol
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethal35
+  id: CrateAmmoBoxLethal35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubber35
+  id: CrateAmmoBoxRubber35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPractice35
+  id: CrateAmmoBoxPractice35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxIncendiary35
+  id: CrateAmmoBoxIncendiary35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxUranium35
+  id: CrateAmmoBoxUranium35
+  categories: [ HideSpawnMenu ]
+
+- type: entity # EMP
+  abstract: true
+  id: StorageFillAmmoBoxEmp35
+  suffix: .35 pistol, EMP, x4 boxes
+  components:
+  - type: StorageFill
+    contents:
+    - id: MagazineBoxPistolEmp
+      amount: 4
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxEmp35
+  id: CrateAmmoBoxEmp35
+  categories: [ HideSpawnMenu ]
+
+## .25 caseless
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethal25
+  id: CrateAmmoBoxLethal25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxBigLethal25
+  id: CrateAmmoBoxBigLethal25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubber25
+  id: CrateAmmoBoxRubber25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxBigRubber25
+  id: CrateAmmoBoxBigRubber25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPractice25
+  id: CrateAmmoBoxPractice25
+  categories: [ HideSpawnMenu ]
+
+## Shotgun
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethalShotgun
+  id: CrateAmmoBoxLethalShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubberShotgun
+  id: CrateAmmoBoxRubberShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPracticeShotgun
+  id: CrateAmmoBoxPracticeShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxIncendiaryShotgun
+  id: CrateAmmoBoxIncendiaryShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxUraniumShotgun
+  id: CrateAmmoBoxUraniumShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxSlugShotgun
+  id: CrateAmmoBoxSlugShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxFlareShotgun
+  id: CrateAmmoBoxFlareShotgun
+  categories: [ HideSpawnMenu ]
+
+## .45 ammo
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxLethal45
+  id: CrateAmmoBoxLethal45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxRubber45
+  id: CrateAmmoBoxRubber45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxPractice45
+  id: CrateAmmoBoxPractice45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxIncendiary45
+  id: CrateAmmoBoxIncendiary45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - CrateAmmoSecureMercenary
+  - StorageFillAmmoBoxUranium45
+  id: CrateAmmoBoxUranium45
+  categories: [ HideSpawnMenu ]
