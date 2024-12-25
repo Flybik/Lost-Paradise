@@ -23,7 +23,6 @@
         amount: 2
       - id: SprayBottleSpaceCleaner
         amount: 2
-      - id: BoxWetFloorSign
 
 - type: entity
   id: CrateSpaceCleaner
@@ -33,7 +32,7 @@
   components:
     - type: StorageFill
       contents:
-        - id: JugSpaceCleaner
+        - id: SprayBottleSpaceCleaner
           amount: 5
 
 - type: entity
@@ -67,6 +66,6 @@
     - id: KitchenReagentGrinderFlatpack
     - id: VendingMachineBoozeFlatpack
     - id: VendingMachineDinnerwareFlatpack
-    - id: ServiceTechFabFlatpack
+    # - id: ServiceTechFabFlatpack
     - id: VendingMachineRestockChefvend
     - id: VendingMachineRestockDinnerware

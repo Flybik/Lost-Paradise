@@ -45,3 +45,150 @@
     - Energy
     reflectProb: 0.2
     spread: 90
+
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateSecureMercenary
+  name: mercenary crate
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/Crates/secure_mercenary.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/Crates/secure_mercenary.rsi
+  - type: AccessReader
+    access: [["Mercenary"]]
+
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateSecureMercenaryPrivateSec
+  name: private security crate
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/Crates/secure_privatesec.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/Crates/secure_privatesec.rsi
+  - type: AccessReader
+    access: [["Mercenary"]]
+
+- type: entity
+  parent: CrateGenericSteel
+  id: CrateAmmoGeneric
+  name: ammo crate
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/Crates/ammo.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/Crates/ammo.rsi
+
+# Exp. Loot
+
+- type: entity
+  parent: CrateWeaponSecure
+  id: CrateFirearmsSecure
+  name: secure firearms crate
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/Crates/secure_firearms.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/Crates/secure_firearms.rsi
+
+- type: entity
+  parent: CrateSecureMercenary
+  id: CrateSecureMercenaryHardsuit
+  name: mercenary hardsuit crate
+  description: Contains a mercenary hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingOuterHardsuitMercenary
+    - id: ClothingMaskGasMercenary
+    - id: JetpackMiniFilled
+    - id: HandheldGPSBasic
+
+- type: entity
+  parent: CrateSecureMercenaryPrivateSec
+  id: CrateSecureMercenaryPrivateSecHardsuit
+  name: private security hardsuit crate
+  description: Contains a private security hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyAirTankFilled
+    - id: ClothingOuterHardsuitPrivateSecurity
+    - id: ClothingMaskGasSecurity
+    - id: JetpackMiniFilled
+    - id: HandheldGPSBasic
+
+- type: entity
+  id: CrateArmoryShotgunExpedition
+  parent:
+  - CrateFirearmsSecure
+  name: shotgun crate
+  description: For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open. Unregistered.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponShotgunKammerer
+        amount: 2
+      - id: BoxLethalshot
+        amount: 3
+
+- type: entity
+  id: CrateArmoryPistolsExpedition
+  parent:
+  - CrateFirearmsSecure
+  name: pistols crate
+  description: Contains two standard NT pistols with four mags. Requires Armory access to open. Unregistered.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolMk58
+      amount: 2
+    - id: MagazinePistol
+      amount: 4
+
+- type: entity
+  id: CrateArmoryRifleGestioExpedition
+  parent:
+  - CrateFirearmsSecure
+  name: gestio rifle crate
+  description: Contains two old prototype, burst-fire rifles with six low capacity mags. Requires Armory access to open. Unregistered.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleGestio
+        amount: 2
+      - id: MagazineLightRifleLowCapacity
+        amount: 6
+
+- type: entity
+  id: CrateArmoryRifleNovaliteC1Expedition
+  parent:
+  - CrateFirearmsSecure
+  name: novalite rifle crate
+  description: Contains two civilian grade rifles with six low capacity clips. Requires Armory access to open. Unregistered.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleNovaliteC1
+        amount: 2
+      - id: MagazineNovaliteC1
+        amount: 6
+
+- type: entity
+  id: CrateArmoryEnergyGunExpedition
+  parent:
+  - CrateFirearmsSecure
+  name: energy guns crate
+  description: Contains three energy guns. Requires Armory access to open. Unregistered.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponEnergyGun
+        amount: 3
