@@ -237,7 +237,7 @@
       24: 0.7
       32: 0.5
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4
+    rechargeCooldown: 3
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: BasicEntityAmmoProvider
@@ -265,7 +265,7 @@
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: clamp
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4
+    rechargeCooldown: 3
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: BasicEntityAmmoProvider
@@ -399,7 +399,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 5
+    rechargeCooldown: 4
     rechargeSound:
       path: /Audio/Animals/space_dragon_roar.ogg
   - type: BasicEntityAmmoProvider

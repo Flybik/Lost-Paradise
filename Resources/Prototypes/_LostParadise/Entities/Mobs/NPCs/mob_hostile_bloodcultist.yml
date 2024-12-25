@@ -11,7 +11,7 @@
     factions:
       - BloodCultNF
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 1.5
+    rechargeCooldown: 1
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: Advertise
@@ -84,7 +84,7 @@
     soundGunshot:
       path: /Audio/Effects/Lightning/lightningshock.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 12
+    rechargeCooldown: 10
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
 
@@ -296,7 +296,7 @@
     soundGunshot:
       path: /Audio/Effects/teleport_arrival.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 55
+    rechargeCooldown: 65
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: MeleeWeapon

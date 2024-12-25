@@ -43,22 +43,20 @@
     - state: pink
     - sprite: _LostParadise/Objects/Materials/Scrap/generic.rsi
       state: metal-1
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageScrapSpawnerCommon
-      prob: 0.5
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerCommon
+    chance: .50
 
 - type: entity
   parent: SalvageSpawnerScrapCommon
   id: SalvageSpawnerScrapCommon75
   suffix: Common, 75%
   components:
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageScrapSpawnerCommon
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerCommon
+    chance: .75
 
 - type: entity
   parent: MarkerBase

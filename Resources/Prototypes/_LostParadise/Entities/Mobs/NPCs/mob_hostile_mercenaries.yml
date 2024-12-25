@@ -322,8 +322,8 @@
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: BasicEntityAmmoProvider
     proto: ShellShotgun
-    capacity: 1
-    count: 1
+    capacity: 3
+    count: 3
   - type: Gun
     showExamineText: false
     fireRate: 2
@@ -431,10 +431,10 @@
       shader: unshaded
   - type: BasicEntityAmmoProvider
     proto: CartridgeRifle
-    capacity: 2
-    count: 2
+    capacity: 5
+    count: 5
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 2
+    rechargeCooldown: 1
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: Gun

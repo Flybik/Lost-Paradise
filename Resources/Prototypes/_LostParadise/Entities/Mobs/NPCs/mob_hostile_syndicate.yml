@@ -123,8 +123,8 @@
         path: /Audio/_LostParadise/Effects/silence.ogg
     - type: BasicEntityAmmoProvider
       proto: ShellShotgunSlug
-      capacity: 1
-      count: 1
+      capacity: 3
+      count: 3
     - type: Gun
       showExamineText: false
       fireRate: 2
@@ -186,8 +186,8 @@
         path: /Audio/_LostParadise/Effects/silence.ogg
     - type: BasicEntityAmmoProvider
       proto: DartSyndicateImpedrezene
-      capacity: 1
-      count: 1
+      capacity: 2
+      count: 2
     - type: Gun
       showExamineText: false
       fireRate: 4

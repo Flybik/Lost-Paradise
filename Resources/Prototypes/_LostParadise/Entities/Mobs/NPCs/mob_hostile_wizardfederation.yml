@@ -15,7 +15,7 @@
     factions:
     - WizFedFaction
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 3
+    rechargeCooldown: 2
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
   - type: Flammable
@@ -63,7 +63,7 @@
     soundGunshot:
       path: /Audio/Effects/teleport_arrival.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 40
+    rechargeCooldown: 35
     rechargeSound:
       path: /Audio/_LostParadise/Effects/silence.ogg
 

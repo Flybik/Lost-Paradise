@@ -1,36 +1,78 @@
 - type: entity
   id: SalvageScrapSpawnerCommon
-  table: !type:GroupSelector
-    children:
-    # 70% chance of scrap of some kind
-    - !type:GroupSelector
-      weight: 70
-      children:
-      - !type:NestedSelector
-        tableId: SalvageScrapLowValue
-        weight: 60
-      - !type:NestedSelector
-        tableId: SalvageScrapHighValue
-        weight: 30
-      - !type:NestedSelector
-        tableId: SalvageScrapLarge
-        weight: 10
-    # 10% chance of some trash
-    - !type:NestedSelector
-      tableId: GenericTrashItems
-      weight: 10
-    # 15% chance of low-value equipment
-    - !type:NestedSelector
-      tableId: SalvageEquipmentCommon
-      weight: 15
-    # 5% chance of low-value treasure or maintenance tools
-    - !type:GroupSelector
-      weight: 5
-      children:
-      - !type:NestedSelector
-        tableId: SalvageTreasureCommon
-      - !type:NestedSelector
-        tableId: MaintToolsTable
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapLowValue
+    chance: 0.70
+    rarePrototypes:
+      - SalvageEquipmentCommon
+      - SalvageTreasureCommon
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageScrapLowValue
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - ShardGlass
+      - SheetSteel1
+      - SheetPlastic1
+      - PartRodMetal1
+    chance: 0.7
+    rarePrototypes:
+      - SalvageScrapHighValue
+    rareChance: 0.3
+
+- type: entity
+  id: SalvageScrapHighValue
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SheetSteel10
+      - SheetGlass10
+      - SheetPlastic10
+      - PartRodMetal10
+      - MaterialWoodPlank10
+      - SheetPlasma10
+      - ArtifactFragment1
+      - SheetPlasteel10
+    chance: 0.7
+
+- type: entity
+  id: SalvageEquipmentCommon
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - Flare
+    - Crowbar
+    - Pickaxe
+    - ClothingMaskGas
+    - Wirecutter
+    - Screwdriver
+    - Wrench
+    - Welder
+    - Shovel
+    - FlashlightLantern
+    - FireExtinguisher
+    - SurvivalKnife
+
+- type: entity
+  id: SalvageEquipmentCommon
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - ResearchDisk10000
 
 - type: entity
   id: SalvageScrapSpawnerValuable
@@ -255,39 +297,3 @@
       children:
       - !type:NestedSelector
         tableId: SyndieMaintLoot
-
-- type: entity
-  parent: MarkerBase
-  id: SalvageSpawnerMobShark
-  name: Salvage Sharkminnow Spawner
-  components:
-  - type: Sprite
-    layers:
-    - state: pink
-    - sprite: Mobs/Aliens/Carps/sharkminnow.rsi
-      state: alive
-  - type: LPEntityTableSpawner
-    table: !type:AllSelector
-      children:
-      - id: MobSharkSalvage
-      - id: MobCarpSalvage
-        amount: !type:ConstantNumberSelector
-          value: 3
-
-# - type: entity
-#   parent: MarkerBase
-#   id: SalvageSpawnerMobMiningAsteroid
-#   name: Mining Asteroid Mob Spawner
-#   components:
-#   - type: Sprite
-#     layers:
-#     - state: green
-#     - sprite: _LostParadise/Mobs/Aliens/Asteroid/goliath.rsi
-#       state: goliath
-#   - type: LPEntityTableSpawner
-#     table: !type:GroupSelector
-#       children:
-#       - id: MobGoliath
-#         weight: 65
-#       - id: MobHivelord
-#         weight: 35
