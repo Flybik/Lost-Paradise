@@ -292,3 +292,32 @@
     - ShuttleGunKineticFlatpack
     - AmmoTechFabFlatpack
     rareChance: 0.01
+
+- type: entity
+  name: random vendomats
+  id: SpawnDungeonVendomatsSalvage
+  parent: MarkerBase
+  suffix: "Dungeon, Salvaging"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Structures/Machines/VendingMachines/youtool.rsi
+        state: off
+      - sprite: _LostParadise/Markers/general.rsi
+        state: questionmark
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - VendingMachineYouTool
+    - VendingMachineSalvage
+    - VendingMachineSalvage
+    - VendingMachineWinter
+    - VendingMachineCargoDrobe
+    chance: 1
+    offset: 0.0
+    rarePrototypes:
+    # - VendingMachineSyndieContraband
+    - VendingMachineSyndieDrobe
+    # - VendingMachineArcadia
+    rareChance: 0.01
