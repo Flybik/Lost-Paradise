@@ -25,11 +25,10 @@
     - state: pink
     - sprite: Objects/Devices/communication.rsi
       state: walkietalkie
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageEquipmentSpawnerValuable
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentSpawnerValuable
+    chance: 0.75
 
 - type: entity
   parent: MarkerBase
@@ -68,22 +67,20 @@
     - state: pink
     - sprite: _LostParadise/Objects/Materials/Scrap/generic.rsi
       state: junk-airlock-1
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageScrapSpawnerValuable
-      prob: 0.5
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerValuable
+    chance: 0.5
 
 - type: entity
   parent: SalvageSpawnerScrapValuable
   id: SalvageSpawnerScrapValuable75
   suffix: Valuable, 75%
   components:
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageScrapSpawnerValuable
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerValuable
+    chance: 0.75
 
 - type: entity
   parent: MarkerBase
@@ -96,11 +93,10 @@
     - state: pink
     - sprite: Objects/Materials/materials.rsi
       state: diamond
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageTreasureSpawnerCommon
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureSpawnerCommon
+    chance: 0.75
 
 - type: entity
   parent: MarkerBase
@@ -113,8 +109,7 @@
     - state: pink
     - sprite: Objects/Materials/materials.rsi
       state: diamond
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageTreasureSpawnerValuable
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureSpawnerValuable
+    chance: 0.75
