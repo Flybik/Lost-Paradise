@@ -221,7 +221,7 @@
   components:
   - type: RandomSpawner
     prototypes:
-      - ResearchDisk1000
+      - ResearchDisk
     chance: 0.8
     rarePrototypes:
       - SalvageTreasureUncommon
