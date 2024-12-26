@@ -9,11 +9,10 @@
     - state: pink
     - sprite: Objects/Devices/communication.rsi
       state: walkietalkie
-  - type: LPEntityTableSpawner
-    offset: 0.4
-    table: !type:NestedSelector
-      tableId: SalvageEquipmentSpawnerCommon
-      prob: 0.75
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentSpawnerCommon
+    chance: 0.75
 
 - type: entity
   parent: MarkerBase
@@ -46,7 +45,7 @@
   - type: RandomSpawner
     prototypes:
       - SalvageScrapSpawnerCommon
-    chance: .50
+    chance: 0.50
 
 - type: entity
   parent: SalvageSpawnerScrapCommon
@@ -56,7 +55,7 @@
   - type: RandomSpawner
     prototypes:
       - SalvageScrapSpawnerCommon
-    chance: .75
+    chance: 0.75
 
 - type: entity
   parent: MarkerBase

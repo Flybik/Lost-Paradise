@@ -72,7 +72,7 @@
   components:
   - type: RandomSpawner
     prototypes:
-    - ResearchDisk10000
+    - ResearchDisk1000
 
 - type: entity
   id: SalvageScrapSpawnerValuable
@@ -210,45 +210,147 @@
 
 - type: entity
   id: SalvageEquipmentSpawnerCommon
-  table: !type:GroupSelector
-    children:
-    # 90% chance of equipment item
-    - !type:GroupSelector
-      weight: 90
-      children:
-      - !type:NestedSelector
-        tableId: SalvageEquipmentCommon
-        weight: 50
-      - !type:NestedSelector
-        tableId: SalvageEquipmentUncommon
-        weight: 35
-      - !type:NestedSelector
-        tableId: SalvageEquipmentRare
-        weight: 14
-      - !type:NestedSelector
-        tableId: SalvageEquipmentLegendary
-        weight: 1
-    # 5% chance of decent-ish treasure
-    - !type:GroupSelector
-      weight: 5
-      children:
-      - !type:NestedSelector
-        tableId: SalvageTreasureCommon
-        weight: 75
-      - !type:NestedSelector
-        tableId: SalvageTreasureUncommon
-        weight: 20
-      - !type:NestedSelector
-        tableId: SalvageTreasureRare
-        weight: 5
-    # 5% chance of decent maintenance loot
-    - !type:GroupSelector
-      weight: 5
-      children:
-      - !type:NestedSelector
-        tableId: MaintToolsTable
-      - !type:NestedSelector
-        tableId: MaintFluffTable
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentCommon90
+    chance: 0.9
+    rarePrototypes:
+      - SalvageTreasureCommon75
+    rareChance: 0.1
+
+- type: entity
+  id: SalvageEquipmentCommon90
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - Flare
+    - Crowbar
+    - Pickaxe
+    - ClothingMaskGas
+    - Wirecutter
+    - Screwdriver
+    - Wrench
+    - Welder
+    - Shovel
+    - FlashlightLantern
+    - FireExtinguisher
+    - SurvivalKnife
+    chance: 0.65
+    rarePrototypes:
+      - SalvageEquipmentUncommon
+    rareChance: 0.35
+
+- type: entity
+  id: SalvageEquipmentUncommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - OreBag
+    - PowerCellHighPrinted
+    - RadioHandheld
+    - ClothingBeltUtility
+    - Floodlight
+    - WeaponProtoKineticAccelerator
+    - OxygenTankFilled
+    - WelderIndustrial
+    - WeaponGrapplingGun
+    - ClothingHeadHatWelding
+    - ClothingHeadHatWeldingMaskFlame
+    - ClothingHeadHatWeldingMaskFlameBlue
+    - ClothingHeadHatWeldingMaskPainted
+    - ClothingBeltQuiverCrossbowFilledBolt
+    chance: 0.86
+    rarePrototypes:
+      - SalvageEquipmentRare
+    rareChance: 0.14
+
+- type: entity
+  id: SalvageEquipmentRare
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - FultonBeacon
+      - Fulton
+      - HandHeldMassScanner
+      - WeaponCrusherDagger
+      - MiningDrill
+      - ClothingEyesGlassesMeson
+      - ClothingBeltSalvageWebbing
+      - SeismicCharge
+      - WeaponCrusher
+      - CrossbowModernHand
+    chance: 0.9
+    rarePrototypes:
+      - SalvageEquipmentLegendary
+    rareChance: 0.1
+
+- type: entity
+  id: SalvageEquipmentLegendary
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - WeaponCrusherGlaive
+      - ClothingOuterHardsuitSalvage
+      - OmnizineChemistryBottle
+
+- type: entity
+  id: SalvageTreasureCommon75
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - ResearchDisk1000
+    chance: 0.8
+    rarePrototypes:
+      - SalvageTreasureUncommon
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageTreasureUncommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - IngotSilver1
+      - IngotGold1
+      - TreasureDatadiskEncrypted
+      - TreasureCDDrive
+      - TreasureHardDiskDrive
+      - TreasureFlopDiskDrive
+      - SpaceCash1000
+    chance: 0.95
+    rarePrototypes:
+      - SalvageTreasureRare
+    rareChance: 0.05
+
+- type: entity
+  id: SalvageTreasureRare
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - LPPProcessedDiamond1
+      - TreasureCPUSupercharged
+      - ResearchDisk10000
+      - BriefcaseBrown
+      - SpaceCash1000
+      - SpaceCash2500
+      - SpaceCash5000
+      - SpaceCash10000
 
 - type: entity
   id: SalvageEquipmentSpawnerValuable
