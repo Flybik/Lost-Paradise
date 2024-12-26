@@ -213,7 +213,7 @@
         enum.SalvageConsoleUiKey.Expedition:
           type: SalvageExpeditionConsoleBoundUserInterface
     - type: Computer
-      board: SalvageExpeditionsComputerCircuitboard
+      board: LPPSalvageExpeditionsComputerCircuitboard
     - type: PointLight
       radius: 1.5
       energy: 1.6
