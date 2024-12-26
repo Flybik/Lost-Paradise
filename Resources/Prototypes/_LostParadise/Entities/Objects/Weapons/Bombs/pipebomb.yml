@@ -4,6 +4,7 @@
   name: pipe bomb
   description: An improvised explosive made from pipes and wire.
   components:
+  - type: WeaponCaseInsertable
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Bombs/pipebomb.rsi
     layers:
