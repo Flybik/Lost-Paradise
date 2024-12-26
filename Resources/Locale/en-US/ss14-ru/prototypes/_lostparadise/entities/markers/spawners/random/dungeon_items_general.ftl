@@ -75,3 +75,6 @@ ent-SpawnDungeonLootFlatpacks = random flatpack
 ent-SpawnDungeonLootVendingRestocks = random restock box
     .suffix = Dungeon
     .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnDungeonLootCrateRestockGeneral = random crate (restock)
+    .suffix = Dungeon, General
+    .desc = { ent-MarkerBase.desc }

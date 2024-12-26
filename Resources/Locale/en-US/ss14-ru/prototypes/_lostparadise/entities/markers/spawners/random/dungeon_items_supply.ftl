@@ -25,3 +25,6 @@ ent-SpawnDungeonLootCircuitBoardSalvage = random machine board
 ent-SpawnDungeonLootFlatpacksSuppl = random flatpack
     .suffix = Dungeon, Salvaging
     .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnDungeonVendomatsSalvage = random vendomats
+    .suffix = Dungeon, Salvaging
+    .desc = { ent-MarkerBase.desc }

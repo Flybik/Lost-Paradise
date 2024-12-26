@@ -25,3 +25,6 @@ ent-SpawnDungeonLootCircuitBoardSalvage = Случайная плата
 ent-SpawnDungeonLootFlatpacksSuppl = Случайная упаковка
     .suffix = Подземелье, Утильский
     .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnDungeonVendomatsSalvage = random vendomats
+    .suffix = Dungeon, Salvaging
+    .desc = { ent-MarkerBase.desc }

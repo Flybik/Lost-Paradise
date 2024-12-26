@@ -75,3 +75,6 @@ ent-SpawnDungeonLootFlatpacks = Случайная упаковка
 ent-SpawnDungeonLootVendingRestocks = Случайный ящик пополнения
     .suffix = Подземелье
     .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnDungeonLootCrateRestockGeneral = random crate (restock)
+    .suffix = Dungeon, General
+    .desc = { ent-MarkerBase.desc }

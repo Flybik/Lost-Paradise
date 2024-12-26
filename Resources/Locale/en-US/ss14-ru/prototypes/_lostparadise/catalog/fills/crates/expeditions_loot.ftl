@@ -24,3 +24,7 @@ ent-CrateAtmosTechHardsuit = atmospheric technician's hardsuit crate
     .desc = Contains a atmospheric technician hardsuit.
 ent-CrateEngineeringKitRtg = RTG toolkit
     .desc = Contains a full kit to build an RTG power plant.
+ent-CrateSecureMercenaryHardsuitMagBoots = mercenary hardsuit crate
+    .desc = Contains a mercenary hardsuit.
+ent-CrateSecureMercenaryPrivateSecHardsuitMagBoots = private security hardsuit crate
+    .desc = Contains a private security hardsuit.
