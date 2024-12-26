@@ -964,3 +964,31 @@
 #    rarePrototypes:
 #    - VendingMachineRestockSyndieContraband # A bit less Syndicate loot
 #    rareChance: 0.001
+
+- type: entity
+  name: random crate (restock)
+  id: SpawnDungeonLootCrateRestockGeneral
+  parent: MarkerBase
+  suffix: "Dungeon, General"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Structures/Storage/Crates/plastic.rsi
+        state: icon
+      - sprite: _LostParadise/Markers/general.rsi
+        state: questionmark
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    # Empty Crates
+    - CrateEmptySpawner
+    # Restocks
+    # - SpawnDungeonLootCrateRestockClothes
+    # - SpawnDungeonLootCrateRestockArmory
+    # - SpawnDungeonLootCrateRestockEngi
+    # - SpawnDungeonLootCrateRestockMed
+    # - SpawnDungeonLootCrateRestockHydro
+    # - SpawnDungeonLootCrateRestockService
+    chance: 1.0
+    offset: 0.0
