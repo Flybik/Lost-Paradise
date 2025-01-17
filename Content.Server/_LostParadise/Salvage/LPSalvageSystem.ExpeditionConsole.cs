@@ -9,9 +9,9 @@ using Content.Server._LostParadise.Salvage.Expeditions; // Frontier
 using Content.Shared._LostParadise.CCVar; // Frontier
 using Content.Shared.Mind.Components; // Frontier
 using Content.Shared.Mobs.Components; // Frontier
+using Content.Shared.NPC.Components; // Frontier
 using Content.Shared.IdentityManagement; // Frontier
 using Content.Shared.NPC; // Frontier
-using Content.Server.NPC.Components;
 using Content.Server._LostParadise.Salvage; // Frontier
 
 namespace Content.Server._LostParadise.Salvage;
@@ -81,6 +81,15 @@ public sealed partial class LPSalvageSystem
                 return;
             }
             // end of Frontier proximity check
+
+            // Frontier: check for FTL component - if one exists, the station won't be taken into FTL.
+            if (HasComp<FTLComponent>(grid))
+            {
+                PlayDenySound(uid, component);
+                _popupSystem.PopupEntity(Loc.GetString("shuttle-ftl-recharge"), uid, PopupType.MediumCaution);
+                UpdateConsoles(station.Value, data); // Sure, why not?
+                return;
+            }
         }
         // End Frontier
 

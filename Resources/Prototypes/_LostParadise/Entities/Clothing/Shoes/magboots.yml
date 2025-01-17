@@ -139,7 +139,7 @@
 
 - type: entity
   id: ActionToggleMagbootsMercenary
-  parent: ActionBaseToggleMagboots
+  parent: ActionToggleMagboots
   noSpawn: true
   components:
   - type: InstantAction
@@ -148,7 +148,7 @@
 
 - type: entity
   id: ActionToggleMagbootsCombat
-  parent: ActionBaseToggleMagboots
+  parent: ActionToggleMagboots
   noSpawn: true
   components:
   - type: InstantAction
